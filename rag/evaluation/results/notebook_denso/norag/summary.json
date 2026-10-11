@@ -1,0 +1,59 @@
+{
+  "config": {
+    "mode": "norag",
+    "ground_truth": "/Users/miguelmauricioantonio/Documents/MIA/2/ILN/PROJECT/D2_D3_Miguel_Luís/d2_rag/evaluation/ground_truth_example.json",
+    "n_queries": 15,
+    "k": [],
+    "gen_k": 0,
+    "retriever": null,
+    "generator_model": "qwen2.5:7b",
+    "judge_model": "google/gemma-4-31b-it",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "n_questions": 3,
+    "metric_groups": [
+      "ragas",
+      "judge",
+      "correctness",
+      "lexical",
+      "token"
+    ]
+  },
+  "metrics": {
+    "AnswerRelevance": {
+      "mean": 0.8642432031635117,
+      "n": 15
+    },
+    "JudgeRating": {
+      "mean": 6.666666666666667,
+      "n": 15
+    },
+    "JudgeScore": {
+      "mean": 3.533333333333333,
+      "n": 15
+    },
+    "Correctness": {
+      "mean": 0.26666666666666666,
+      "n": 15
+    },
+    "BLEU": {
+      "mean": 0.10468872876395116,
+      "n": 15
+    },
+    "ROUGE-L": {
+      "mean": 0.16403142325211553,
+      "n": 15
+    },
+    "TokenF1": {
+      "mean": 0.1718381911857628,
+      "n": 15
+    },
+    "TokenPrecision": {
+      "mean": 0.10697904654033602,
+      "n": 15
+    },
+    "TokenRecall": {
+      "mean": 0.5220891437996701,
+      "n": 15
+    }
+  }
+}

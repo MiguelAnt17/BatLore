@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#030405">
+<meta name="description" content="Chatbot híbrido: Batman (regras) e Alfred (RAG + ferramentas MCP) sobre o universo de Gotham.">
+<title>Batcomputador</title>
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body data-agente="batman">
+
+<div class="fundo" aria-hidden="true"></div>
+<div class="chuva" aria-hidden="true"></div>
+<div class="grao" aria-hidden="true"></div>
+
+<header class="topo">
+  <div class="marca">
+    <svg class="marca-icone" viewBox="0 0 32 32" aria-hidden="true">
+      <circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/>
+      <circle cx="16" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2" opacity=".6"/>
+      <path d="M16 16 L16 2 A14 14 0 0 1 28.1 9 Z" fill="currentColor" opacity=".85"/>
+      <circle cx="16" cy="16" r="2.5" fill="currentColor"/>
+    </svg>
+    <div>
+      <h1 class="marca-nome" data-i18n="marca">Batcomputador</h1>
+      <p class="marca-sub" data-i18n="subtitulo">Batman (regras) · Alfred (RAG + MCP)</p>
+    </div>
+  </div>
+
+  <div class="topo-acoes">
+    <span id="llm-info" class="pilula" hidden></span>
+
+    <div class="segmentado" role="group" aria-label="Idioma / Language">
+      <button type="button" class="seg" data-lang="pt" aria-pressed="true">PT</button>
+      <button type="button" class="seg" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+
+    <button id="btn-debug" type="button" class="icone-btn" aria-pressed="false" data-i18n-title="debug_titulo" title="Modo debug">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M12 3v3M5 9h14M7 9v6a5 5 0 0 0 10 0V9M3 13h4M17 13h4M4 19l3-2M20 19l-3-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+
+    <button id="btn-info" type="button" class="icone-btn so-movel" aria-controls="painel" aria-expanded="false" data-i18n-title="info_titulo" title="Informação">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <button id="btn-nova" type="button" class="botao">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span data-i18n="nova_conversa">Nova conversa</span>
+    </button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <section class="conversa" aria-label="Conversa">
+    <div class="linha-ativa">
+      <div class="retrato-mini"><img id="mini-img" src="/static/img/batman.webp" alt=""></div>
+      <div class="linha-ativa-texto">
+        <strong id="mini-nome">Batman</strong>
+        <span id="mini-papel" data-i18n="papel_batman">Detetive · agente de regras</span>
+      </div>
+      <span id="estado" class="estado"><span class="ponto"></span><span id="estado-texto">A ligar…</span></span>
+    </div>
+
+    <div id="mensagens" class="mensagens" role="log" aria-live="polite" aria-relevant="additions"></div>
+
+    <div class="rodape-conversa">
+      <div id="sugestoes" class="sugestoes" aria-label="Sugestões"></div>
+      <p id="aviso-idioma" class="aviso-idioma" hidden></p>
+
+      <form id="composer" class="composer" autocomplete="off">
+        <label for="mensagem" class="sr-only" data-i18n="a_tua_mensagem">A tua mensagem</label>
+        <textarea id="mensagem" rows="1" maxlength="500" data-i18n-placeholder="placeholder" placeholder="Escreve uma mensagem…"></textarea>
+        <span id="contador" class="contador" aria-hidden="true"></span>
+        <button id="btn-enviar" type="submit" class="enviar" data-i18n-title="enviar" title="Enviar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z" fill="currentColor"/></svg>
+        </button>
+      </form>
+      <p class="dica" data-i18n="dica_teclas">Enter para enviar · Shift+Enter para nova linha</p>
+    </div>
+  </section>
+
+  <aside id="painel" class="painel" aria-label="Painel">
+    <button id="btn-fechar-painel" type="button" class="icone-btn fechar-painel so-movel" data-i18n-title="fechar" title="Fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="cartao cartao-agente">
+      <div class="retrato"><img id="retrato-img" src="/static/img/batman.webp" alt="Batman"></div>
+      <div class="cartao-agente-texto">
+        <span class="rotulo" data-i18n="na_linha">Na linha</span>
+        <h2 id="retrato-nome">Batman</h2>
+        <p id="retrato-desc" data-i18n="desc_batman">Agente de regras (ELIZA + NER + TF-IDF). Diz “Quero falar com o Alfred” para mudar de linha.</p>
+      </div>
+    </div>
+
+    <div class="cartao" id="cartao-modo">
+      <span class="rotulo" data-i18n="modo_alfred">Modo do Alfred</span>
+      <div class="opcoes-modo" role="radiogroup">
+        <label class="opcao-modo">
+          <input type="radio" name="modo" value="rag_primeiro" checked>
+          <span>
+            <strong data-i18n="modo_rag">RAG primeiro</strong>
+            <small data-i18n="modo_rag_desc">Consulta sempre os arquivos; usa a web e os sistemas só se precisar.</small>
+          </span>
+        </label>
+        <label class="opcao-modo">
+          <input type="radio" name="modo" value="livre">
+          <span>
+            <strong data-i18n="modo_livre">Livre (agêntico)</strong>
+            <small data-i18n="modo_livre_desc">O LLM decide todas as ferramentas, incluindo os arquivos.</small>
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="cartao">
+      <span class="rotulo" data-i18n="ferramentas_titulo">Ferramentas MCP do Alfred</span>
+      <ul class="lista-ferramentas">
+        <li><div class="nomes"><code>pesquisar_arquivos</code></div><span data-i18n="f_arquivos">18 artigos da Wikipédia (RAG híbrido)</span></li>
+        <li><div class="nomes"><code>pesquisar_web</code> · <code>pesquisar_noticias</code></div><span data-i18n="f_web">Pesquisa na web (DuckDuckGo)</span></li>
+        <li><div class="nomes"><code>ler_pagina</code></div><span data-i18n="f_pagina">Lê o texto de uma página</span></li>
+        <li><div class="nomes"><code>estado_batmovel</code> · <code>clima_gotham</code> · <code>gerir_agenda_bruce</code></div><span data-i18n="f_sistemas">Sistemas da Batcaverna (simulados)</span></li>
+        <li><div class="nomes"><code>perguntar_ao_batman</code></div><span data-i18n="f_batman">Pede a opinião ao Batman</span></li>
+      </ul>
+    </div>
+
+    <div class="cartao cartao-sobre">
+      <span class="rotulo" data-i18n="sobre_titulo">Sobre</span>
+      <p data-i18n-html="sobre_texto">Projeto académico de Interação em Linguagem Natural (Mestrado em IA, Universidade de Coimbra). Um <em>router</em> de embeddings decide quem responde: o Batman de regras ou o Alfred com LLM.</p>
+    </div>
+  </aside>
+
+  <div id="veu" class="veu" hidden></div>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

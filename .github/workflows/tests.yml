@@ -1,0 +1,18 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      # The offline tests only need the light dependencies (no models, no LLM)
+      - run: pip install python-dotenv requests nltk langchain-core fastmcp ddgs trafilatura pytest
+      - run: python -m pytest -q tests

@@ -1,0 +1,50 @@
+modo,query_id,pergunta,ferramenta,argumentos,origem,ok,segundos,ArgsValidos,ArgsAdequados
+livre,1,Quem assassinou os pais de Bruce Wayne?,relevancia,{'pergunta': 'Quem assassinou os pais de Bruce Wayne?'},codigo,True,0.029,,
+livre,2,Quem fundou o Asilo Arkham e em honra de quem?,relevancia,{'pergunta': 'Quem fundou o Asilo Arkham e em honra de quem?'},codigo,True,0.038,,
+livre,2,Quem fundou o Asilo Arkham e em honra de quem?,pesquisar_arquivos,"{'pergunta': 'Quem fundou o Asilo Arkham e em honra de quem?', 'modo': 'histórico', 'k': 3}",llm,False,0.005,1.0,1.0
+livre,3,Qual é o nome verdadeiro da Arlequina?,relevancia,{'pergunta': 'Qual é o nome verdadeiro da Arlequina?'},codigo,True,0.039,,
+livre,4,Em que revista e em que ano se estreou o Batman?,relevancia,{'pergunta': 'Em que revista e em que ano se estreou o Batman?'},codigo,True,0.036,,
+livre,4,Em que revista e em que ano se estreou o Batman?,pesquisar_arquivos,"{'pergunta': 'estreia do Batman em revistas', 'modo': 'detalhado', 'k': 3}",llm,False,0.004,1.0,1.0
+livre,4,Em que revista e em que ano se estreou o Batman?,pesquisar_web,"{'consulta': 'estreia do Batman em revistas', 'max_resultados': 3}",llm,True,5.604,1.0,1.0
+livre,5,Quem criou o Batman?,relevancia,{'pergunta': 'Quem criou o Batman?'},codigo,True,0.038,,
+livre,6,Qual é o nome completo do Batman?,relevancia,{'pergunta': 'Qual é o nome completo do Batman?'},codigo,True,0.037,,
+livre,7,O que é o Poço de Lázaro?,relevancia,{'pergunta': 'O que é o Poço de Lázaro?'},codigo,True,0.017,,
+livre,8,De onde vem o nome Gotham City?,relevancia,{'pergunta': 'De onde vem o nome Gotham City?'},codigo,True,0.037,,
+livre,9,Quais são os três moradores mais famosos de Gotham City?,relevancia,{'pergunta': 'Quais são os três moradores mais famosos de Gotham City?'},codigo,True,0.037,,
+livre,9,Quais são os três moradores mais famosos de Gotham City?,pesquisar_web,"{'consulta': 'moradores famosos de Gotham City', 'max_resultados': 3}",llm,True,1.366,1.0,1.0
+livre,10,De onde foi retirado o nome do Asilo Arkham?,relevancia,{'pergunta': 'De onde foi retirado o nome do Asilo Arkham?'},codigo,True,0.038,,
+livre,10,De onde foi retirado o nome do Asilo Arkham?,pesquisar_arquivos,"{'pergunta': 'De onde foi retirado o nome do Asilo Arkham?', 'modo': 'histórico', 'k': 5}",llm,False,0.005,1.0,1.0
+livre,11,Em que revista apareceu pela primeira vez o Asilo Arkham?,relevancia,{'pergunta': 'Em que revista apareceu pela primeira vez o Asilo Arkham?'},codigo,True,0.036,,
+livre,11,Em que revista apareceu pela primeira vez o Asilo Arkham?,pesquisar_arquivos,"{'pergunta': 'Asilo Arkham', 'modo': 'primeira_aparicao'}",llm,False,0.004,1.0,1.0
+livre,12,Onde fica a Batcaverna?,relevancia,{'pergunta': 'Onde fica a Batcaverna?'},codigo,True,0.038,,
+livre,13,Como é que Bruce Wayne descobriu as cavernas quando era criança?,relevancia,{'pergunta': 'Como é que Bruce Wayne descobriu as cavernas quando era criança?'},codigo,True,0.038,,
+livre,14,Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?,relevancia,{'pergunta': 'Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?'},codigo,True,0.038,,
+livre,14,Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?,pesquisar_web,"{'max_resultados': 1, 'consulta': 'preço do Batmóvel da série de televisão dos anos sessenta'}",llm,True,1.527,1.0,1.0
+livre,15,A partir de que carro foi construído o Batmóvel da série de televisão de 1966?,relevancia,{'pergunta': 'A partir de que carro foi construído o Batmóvel da série de televisão de 1966?'},codigo,True,0.035,,
+livre,15,A partir de que carro foi construído o Batmóvel da série de televisão de 1966?,ler_pagina,"{'url': 'https://en.wikipedia.org/wiki/Batmobile', 'max_caracteres': 500}",llm,True,0.65,1.0,1.0
+livre,101,"Quem realizou o filme The Batman, de 2022?",relevancia,"{'pergunta': 'Quem realizou o filme The Batman, de 2022?'}",codigo,True,0.035,,
+livre,101,"Quem realizou o filme The Batman, de 2022?",ler_pagina,"{'url': 'https://www.imdb.com/title/tt9052854/', 'max_caracteres': 1000}",llm,False,0.354,1.0,1.0
+livre,101,"Quem realizou o filme The Batman, de 2022?",pesquisar_arquivos,"{'pergunta': 'diretor de The Batman de 2022', 'modo': 'exato'}",llm,False,0.004,1.0,1.0
+livre,101,"Quem realizou o filme The Batman, de 2022?",pesquisar_web,"{'consulta': 'The Batman 2022 filme realizador', 'max_resultados': 1}",llm,True,3.897,1.0,1.0
+livre,102,Que ator deu voz ao Batman na série Batman: The Animated Series?,relevancia,{'pergunta': 'Que ator deu voz ao Batman na série Batman: The Animated Series?'},codigo,True,0.038,,
+livre,102,Que ator deu voz ao Batman na série Batman: The Animated Series?,pesquisar_web,"{'max_resultados': 1, 'consulta': 'atores que deram voz ao Batman na série Batman: The Animated Series'}",llm,True,3.185,1.0,1.0
+livre,103,"Em que ano estreou o filme The Dark Knight, de Christopher Nolan?",relevancia,"{'pergunta': 'Em que ano estreou o filme The Dark Knight, de Christopher Nolan?'}",codigo,True,0.034,,
+livre,103,"Em que ano estreou o filme The Dark Knight, de Christopher Nolan?",pesquisar_arquivos,"{'pergunta': 'ano estreia The Dark Knight', 'modo': 'exato'}",llm,False,0.004,1.0,1.0
+livre,103,"Em que ano estreou o filme The Dark Knight, de Christopher Nolan?",pesquisar_web,"{'consulta': 'ano estreia The Dark Knight', 'max_resultados': 1}",llm,True,2.444,1.0,1.0
+livre,104,"Quem interpretou a Mulher-Gato no filme The Batman, de 2022?",relevancia,"{'pergunta': 'Quem interpretou a Mulher-Gato no filme The Batman, de 2022?'}",codigo,True,0.038,,
+livre,104,"Quem interpretou a Mulher-Gato no filme The Batman, de 2022?",ler_pagina,"{'url': 'https://www.imdb.com/title/tt9598286/fullcredits?ref_=tt_cl_sm', 'max_caracteres': 100000}",llm,False,0.16,1.0,1.0
+livre,104,"Quem interpretou a Mulher-Gato no filme The Batman, de 2022?",pesquisar_web,"{'consulta': 'interpretadora de Mulher-Gato no filme The Batman 2022', 'max_resultados': 1}",llm,True,2.245,1.0,1.0
+livre,105,Quais são as notícias mais recentes sobre o próximo filme do Batman?,relevancia,{'pergunta': 'Quais são as notícias mais recentes sobre o próximo filme do Batman?'},codigo,True,0.038,,
+livre,105,Quais são as notícias mais recentes sobre o próximo filme do Batman?,pesquisar_noticias,"{'consulta': 'próximo filme Batman', 'max_resultados': 3}",llm,True,0.397,1.0,1.0
+livre,201,"Alfred, em que estado está o Batmóvel?",relevancia,"{'pergunta': 'Alfred, em que estado está o Batmóvel?'}",codigo,True,0.038,,
+livre,201,"Alfred, em que estado está o Batmóvel?",estado_batmovel,{'veiculo': 'Batmóvel'},llm,True,0.004,1.0,1.0
+livre,202,Como está o tempo em Crime Alley?,relevancia,{'pergunta': 'Como está o tempo em Crime Alley?'},codigo,True,0.036,,
+livre,202,Como está o tempo em Crime Alley?,clima_gotham,{'distrito': 'Crime Alley'},llm,True,0.004,1.0,1.0
+livre,203,O que tem o Bruce Wayne na agenda para amanhã?,relevancia,{'pergunta': 'O que tem o Bruce Wayne na agenda para amanhã?'},codigo,True,0.036,,
+livre,203,O que tem o Bruce Wayne na agenda para amanhã?,gerir_agenda_bruce,"{'acao': 'ler', 'data': 'amanhã'}",llm,True,0.003,1.0,1.0
+livre,204,Marca na agenda de hoje do Bruce: 23:00 - Reunião com o Comissário Gordon.,relevancia,{'pergunta': 'Marca na agenda de hoje do Bruce: 23:00 - Reunião com o Comissário Gordon.'},codigo,True,0.038,,
+livre,204,Marca na agenda de hoje do Bruce: 23:00 - Reunião com o Comissário Gordon.,gerir_agenda_bruce,"{'compromisso': 'Reunião com o Comissário Gordon', 'data': 'hoje', 'acao': 'escrever'}",llm,True,0.005,1.0,1.0
+livre,205,Pergunta ao Batman o que ele pensa do Coringa.,relevancia,{'pergunta': 'Pergunta ao Batman o que ele pensa do Coringa.'},codigo,True,0.036,,
+livre,205,Pergunta ao Batman o que ele pensa do Coringa.,perguntar_ao_batman,"{'mensagem': 'O que pensa do Coringa, senhor?'}",llm,True,0.015,1.0,1.0
+livre,206,Que artigos tens nos arquivos do Batcomputador?,relevancia,{'pergunta': 'Que artigos tens nos arquivos do Batcomputador?'},codigo,True,0.038,,
+livre,206,Que artigos tens nos arquivos do Batcomputador?,listar_arquivos,{},llm,True,0.004,1.0,1.0

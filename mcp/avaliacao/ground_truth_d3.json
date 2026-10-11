@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": 101,
+    "categoria": "web",
+    "user_query": "Quem realizou o filme The Batman, de 2022?",
+    "ferramentas_esperadas": ["pesquisar_web|pesquisar_noticias"],
+    "ferramentas_permitidas": ["ler_pagina"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "O filme The Batman (2022) foi realizado por Matt Reeves.",
+    "resposta_variavel": false
+  },
+  {
+    "query_id": 102,
+    "categoria": "web",
+    "user_query": "Que ator deu voz ao Batman na série Batman: The Animated Series?",
+    "ferramentas_esperadas": ["pesquisar_web|pesquisar_noticias"],
+    "ferramentas_permitidas": ["ler_pagina"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Kevin Conroy deu voz ao Batman em Batman: The Animated Series.",
+    "resposta_variavel": false
+  },
+  {
+    "query_id": 103,
+    "categoria": "web",
+    "user_query": "Em que ano estreou o filme The Dark Knight, de Christopher Nolan?",
+    "ferramentas_esperadas": ["pesquisar_web|pesquisar_noticias"],
+    "ferramentas_permitidas": ["ler_pagina"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "The Dark Knight estreou em 2008.",
+    "resposta_variavel": false
+  },
+  {
+    "query_id": 104,
+    "categoria": "web",
+    "user_query": "Quem interpretou a Mulher-Gato no filme The Batman, de 2022?",
+    "ferramentas_esperadas": ["pesquisar_web|pesquisar_noticias"],
+    "ferramentas_permitidas": ["ler_pagina"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "A Mulher-Gato foi interpretada por Zoë Kravitz.",
+    "resposta_variavel": false
+  },
+  {
+    "query_id": 105,
+    "categoria": "web",
+    "user_query": "Quais são as notícias mais recentes sobre o próximo filme do Batman?",
+    "ferramentas_esperadas": ["pesquisar_noticias|pesquisar_web"],
+    "ferramentas_permitidas": ["ler_pagina"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Resume notícias recentes sobre o próximo filme do Batman, com fonte ou data, obtidas com as ferramentas de pesquisa e sem inventar factos.",
+    "resposta_variavel": true
+  },
+  {
+    "query_id": 201,
+    "categoria": "batcaverna",
+    "user_query": "Alfred, em que estado está o Batmóvel?",
+    "ferramentas_esperadas": ["estado_batmovel"],
+    "ferramentas_permitidas": [],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Indica a blindagem, a energia/combustível, o estado e a localização do Batmóvel, com os valores devolvidos pela ferramenta estado_batmovel.",
+    "resposta_variavel": true
+  },
+  {
+    "query_id": 202,
+    "categoria": "batcaverna",
+    "user_query": "Como está o tempo em Crime Alley?",
+    "ferramentas_esperadas": ["clima_gotham"],
+    "ferramentas_permitidas": [],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Descreve a temperatura, a condição atmosférica, a visibilidade e as anomalias químicas em Crime Alley, com os valores devolvidos pela ferramenta clima_gotham.",
+    "resposta_variavel": true
+  },
+  {
+    "query_id": 203,
+    "categoria": "batcaverna",
+    "user_query": "O que tem o Bruce Wayne na agenda para amanhã?",
+    "ferramentas_esperadas": ["gerir_agenda_bruce"],
+    "ferramentas_permitidas": [],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Amanhã o Bruce Wayne tem um almoço com o Mayor às 12:30 e uma inspeção técnica aos laboratórios de I&D às 15:00.",
+    "resposta_variavel": false
+  },
+  {
+    "query_id": 204,
+    "categoria": "batcaverna",
+    "user_query": "Marca na agenda de hoje do Bruce: 23:00 - Reunião com o Comissário Gordon.",
+    "ferramentas_esperadas": ["gerir_agenda_bruce"],
+    "ferramentas_permitidas": [],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Confirma que o compromisso '23:00 - Reunião com o Comissário Gordon' foi adicionado à agenda de hoje.",
+    "resposta_variavel": true
+  },
+  {
+    "query_id": 205,
+    "categoria": "batman",
+    "user_query": "Pergunta ao Batman o que ele pensa do Coringa.",
+    "ferramentas_esperadas": ["perguntar_ao_batman"],
+    "ferramentas_permitidas": [],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Transmite a resposta do Batman obtida com a ferramenta perguntar_ao_batman, sem a inventar.",
+    "resposta_variavel": true
+  },
+  {
+    "query_id": 206,
+    "categoria": "arquivos",
+    "user_query": "Que artigos tens nos arquivos do Batcomputador?",
+    "ferramentas_esperadas": ["listar_arquivos"],
+    "ferramentas_permitidas": ["pesquisar_arquivos"],
+    "ground_truth_doc_ids": [],
+    "ground_truth_answer": "Indica que há 18 artigos da Wikipédia sobre o Batman, Gotham, os aliados e os vilões (por exemplo Batman, Gotham City, Asilo Arkham e Coringa), tal como devolvido pela ferramenta listar_arquivos.",
+    "resposta_variavel": true
+  }
+]

@@ -1,0 +1,11 @@
+ferramenta,TesteCorreto,TesteRespondeu,teste_latencia_s,rag_primeiro/chamadas,rag_primeiro/TaxaSucesso,rag_primeiro/LatenciaMedia,rag_primeiro/ArgsValidos,rag_primeiro/ArgsAdequados,livre/chamadas,livre/TaxaSucesso,livre/LatenciaMedia,livre/ArgsValidos,livre/ArgsAdequados
+clima_gotham,1.0,1.0,0.001,1.0,1.0,0.005,1.0,1.0,1,1.0,0.004,1.0,1.0
+estado_batmovel,1.0,1.0,0.001,1.0,1.0,0.004,1.0,1.0,1,1.0,0.004,1.0,1.0
+gerir_agenda_bruce,1.0,1.0,0.001,2.0,1.0,0.0035,1.0,1.0,2,1.0,0.004,1.0,1.0
+ler_pagina,1.0,1.0,0.2205,1.0,1.0,0.142,1.0,1.0,3,0.3333333333333333,0.38799999999999996,1.0,1.0
+listar_arquivos,1.0,1.0,0.009666666666666667,1.0,1.0,0.005,1.0,1.0,1,1.0,0.004,1.0,1.0
+perguntar_ao_batman,1.0,1.0,0.006333333333333333,1.0,1.0,0.015,1.0,1.0,1,1.0,0.015,1.0,1.0
+pesquisar_arquivos,1.0,1.0,0.027333333333333334,26.0,1.0,0.011961538461538461,,,6,0.0,0.004333333333333334,1.0,1.0
+pesquisar_noticias,1.0,1.0,0.6583333333333333,,,,,,1,1.0,0.397,1.0,1.0
+pesquisar_web,1.0,1.0,2.4843333333333333,,,,,,7,1.0,2.8954285714285715,1.0,1.0
+relevancia,1.0,1.0,0.04700000000000001,26.0,1.0,0.036153846153846154,,,26,1.0,0.036,,

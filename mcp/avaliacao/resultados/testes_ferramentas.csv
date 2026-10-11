@@ -1,0 +1,40 @@
+ferramenta,argumentos,repeticao,respondeu,correto,segundos
+listar_arquivos,{},1,True,True,0.024
+listar_arquivos,{},2,True,True,0.003
+listar_arquivos,{},3,True,True,0.002
+relevancia,"{""pergunta"": ""Quem é o Batman?""}",1,True,True,0.117
+relevancia,"{""pergunta"": ""Quem é o Batman?""}",2,True,True,0.012
+relevancia,"{""pergunta"": ""Quem é o Batman?""}",3,True,True,0.012
+pesquisar_arquivos,"{""pergunta"": ""Quem é o Batman?"", ""k"": 3}",1,True,True,0.057
+pesquisar_arquivos,"{""pergunta"": ""Quem é o Batman?"", ""k"": 3}",2,True,True,0.013
+pesquisar_arquivos,"{""pergunta"": ""Quem é o Batman?"", ""k"": 3}",3,True,True,0.012
+pesquisar_web,"{""consulta"": ""Batman filme 2022"", ""max_resultados"": 3}",1,True,True,2.424
+pesquisar_web,"{""consulta"": ""Batman filme 2022"", ""max_resultados"": 3}",2,True,True,2.185
+pesquisar_web,"{""consulta"": ""Batman filme 2022"", ""max_resultados"": 3}",3,True,True,2.844
+pesquisar_noticias,"{""consulta"": ""Batman"", ""max_resultados"": 3}",1,True,True,0.722
+pesquisar_noticias,"{""consulta"": ""Batman"", ""max_resultados"": 3}",2,True,True,0.386
+pesquisar_noticias,"{""consulta"": ""Batman"", ""max_resultados"": 3}",3,True,True,0.867
+ler_pagina,"{""url"": ""https://pt.wikipedia.org/wiki/Batman"", ""max_caracteres"": 1000}",1,True,True,0.688
+ler_pagina,"{""url"": ""https://pt.wikipedia.org/wiki/Batman"", ""max_caracteres"": 1000}",2,True,True,0.366
+ler_pagina,"{""url"": ""https://pt.wikipedia.org/wiki/Batman"", ""max_caracteres"": 1000}",3,True,True,0.266
+ler_pagina,"{""url"": ""ftp://exemplo.com""}",1,True,True,0.001
+ler_pagina,"{""url"": ""ftp://exemplo.com""}",2,True,True,0.001
+ler_pagina,"{""url"": ""ftp://exemplo.com""}",3,True,True,0.001
+estado_batmovel,"{""veiculo"": ""Batwing""}",1,True,True,0.001
+estado_batmovel,"{""veiculo"": ""Batwing""}",2,True,True,0.001
+estado_batmovel,"{""veiculo"": ""Batwing""}",3,True,True,0.001
+clima_gotham,"{""distrito"": ""The Narrows""}",1,True,True,0.001
+clima_gotham,"{""distrito"": ""The Narrows""}",2,True,True,0.001
+clima_gotham,"{""distrito"": ""The Narrows""}",3,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""ler"", ""data"": ""hoje""}",1,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""ler"", ""data"": ""hoje""}",2,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""ler"", ""data"": ""hoje""}",3,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""escrever"", ""data"": ""teste"", ""compromisso"": ""Teste""}",1,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""escrever"", ""data"": ""teste"", ""compromisso"": ""Teste""}",2,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""escrever"", ""data"": ""teste"", ""compromisso"": ""Teste""}",3,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""voar""}",1,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""voar""}",2,True,True,0.001
+gerir_agenda_bruce,"{""acao"": ""voar""}",3,True,True,0.001
+perguntar_ao_batman,"{""mensagem"": ""Olá, Batman""}",1,True,True,0.013
+perguntar_ao_batman,"{""mensagem"": ""Olá, Batman""}",2,True,True,0.003
+perguntar_ao_batman,"{""mensagem"": ""Olá, Batman""}",3,True,True,0.003

@@ -1,0 +1,145 @@
+{
+  "modos": [
+    "rag_primeiro",
+    "livre"
+  ],
+  "medias": {
+    "ToolHit": {
+      "rag_primeiro": 0.8077,
+      "livre": 0.5769,
+      "diferenca": -0.2308
+    },
+    "ToolRecall": {
+      "rag_primeiro": 0.8077,
+      "livre": 0.5769,
+      "diferenca": -0.2308
+    },
+    "ToolPrecision": {
+      "rag_primeiro": 0.8571,
+      "livre": 0.7593,
+      "diferenca": -0.0979
+    },
+    "NumToolCalls": {
+      "rag_primeiro": 1.2692,
+      "livre": 0.8846,
+      "diferenca": -0.3846
+    },
+    "ArgsValidos": {
+      "rag_primeiro": 1.0,
+      "livre": 1.0,
+      "diferenca": 0.0
+    },
+    "ArgsAdequados": {
+      "rag_primeiro": 1.0,
+      "livre": 1.0,
+      "diferenca": 0.0
+    },
+    "TaxaSucesso": {
+      "rag_primeiro": 1.0,
+      "livre": 0.8846,
+      "diferenca": -0.1154
+    },
+    "LatenciaMedia": {
+      "rag_primeiro": 0.0241,
+      "livre": 0.3352,
+      "diferenca": 0.3111
+    },
+    "JudgeScore": {
+      "rag_primeiro": 9.2692,
+      "livre": 7.3846,
+      "diferenca": -1.8846
+    },
+    "AnswerRelevancy": {
+      "rag_primeiro": 0.8444,
+      "livre": 0.7891,
+      "diferenca": -0.0554
+    },
+    "Faithfulness": {
+      "rag_primeiro": 0.7949,
+      "livre": 0.7227,
+      "diferenca": -0.0722
+    },
+    "BLEU": {
+      "rag_primeiro": 0.2376,
+      "livre": 0.1251,
+      "diferenca": -0.1125
+    },
+    "ROUGE-L": {
+      "rag_primeiro": 0.463,
+      "livre": 0.3048,
+      "diferenca": -0.1581
+    },
+    "segundos": {
+      "rag_primeiro": 6.0358,
+      "livre": 6.1404,
+      "diferenca": 0.1046
+    },
+    "correctness (taxa pass)": {
+      "rag_primeiro": 0.9231,
+      "livre": 0.6538,
+      "diferenca": -0.2692
+    }
+  },
+  "pass_por_categoria": {
+    "arquivos": {
+      "rag_primeiro": 1.0,
+      "livre": 0.4375
+    },
+    "batcaverna": {
+      "rag_primeiro": 1.0,
+      "livre": 1.0
+    },
+    "batman": {
+      "rag_primeiro": 0.0,
+      "livre": 1.0
+    },
+    "web": {
+      "rag_primeiro": 0.8,
+      "livre": 1.0
+    }
+  },
+  "emparelhado": {
+    "JudgeScore": {
+      "n": 26,
+      "vitorias_livre": 1,
+      "empates": 16,
+      "derrotas_livre": 9,
+      "wilcoxon_p": 0.018671471498104657
+    },
+    "AnswerRelevancy": {
+      "n": 26,
+      "vitorias_livre": 10,
+      "empates": 4,
+      "derrotas_livre": 12,
+      "wilcoxon_p": 0.19970475388700681
+    },
+    "Faithfulness": {
+      "n": 15,
+      "vitorias_livre": 4,
+      "empates": 7,
+      "derrotas_livre": 4,
+      "wilcoxon_p": 0.8879536894905294
+    },
+    "ArgsAdequados": {
+      "n": 7,
+      "vitorias_livre": 0,
+      "empates": 7,
+      "derrotas_livre": 0,
+      "wilcoxon_p": NaN
+    },
+    "LatenciaMedia": {
+      "n": 26,
+      "vitorias_livre": 22,
+      "empates": 0,
+      "derrotas_livre": 4,
+      "wilcoxon_p": 0.00025473078841202994
+    },
+    "correctness": {
+      "n": 26,
+      "vitorias_livre": 2,
+      "empates": 15,
+      "derrotas_livre": 9,
+      "mcnemar_p": 0.0654296875
+    }
+  }
+}

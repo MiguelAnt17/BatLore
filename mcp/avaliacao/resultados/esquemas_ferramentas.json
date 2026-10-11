@@ -1,0 +1,161 @@
+{
+  "pesquisar_web": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "consulta": {
+        "type": "string"
+      },
+      "max_resultados": {
+        "default": 5,
+        "type": "integer"
+      },
+      "periodo": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null
+      }
+    },
+    "required": [
+      "consulta"
+    ]
+  },
+  "pesquisar_noticias": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "consulta": {
+        "type": "string"
+      },
+      "max_resultados": {
+        "default": 5,
+        "type": "integer"
+      },
+      "periodo": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": "m"
+      }
+    },
+    "required": [
+      "consulta"
+    ]
+  },
+  "ler_pagina": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "url": {
+        "type": "string"
+      },
+      "max_caracteres": {
+        "default": 4000,
+        "type": "integer"
+      }
+    },
+    "required": [
+      "url"
+    ]
+  },
+  "pesquisar_arquivos": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "pergunta": {
+        "type": "string"
+      },
+      "k": {
+        "default": 3,
+        "type": "integer"
+      },
+      "modo": {
+        "default": "hibrido",
+        "type": "string"
+      }
+    },
+    "required": [
+      "pergunta"
+    ]
+  },
+  "relevancia": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "pergunta": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "pergunta"
+    ]
+  },
+  "listar_arquivos": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "perguntar_ao_batman": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "mensagem": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "mensagem"
+    ]
+  },
+  "estado_batmovel": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "veiculo": {
+        "default": "Batmóvel",
+        "type": "string"
+      }
+    }
+  },
+  "clima_gotham": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "distrito": {
+        "default": "Gotham City",
+        "type": "string"
+      }
+    }
+  },
+  "gerir_agenda_bruce": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "acao": {
+        "type": "string"
+      },
+      "data": {
+        "default": "hoje",
+        "type": "string"
+      },
+      "compromisso": {
+        "default": "",
+        "type": "string"
+      }
+    },
+    "required": [
+      "acao"
+    ]
+  }
+}

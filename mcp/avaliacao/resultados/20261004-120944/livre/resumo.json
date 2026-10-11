@@ -1,0 +1,33 @@
+{
+  "modo": "livre",
+  "juiz": "google/gemma-4-31b-it",
+  "n_perguntas": 26,
+  "taxa_pass": 0.6538,
+  "taxa_pass_por_categoria": {
+    "arquivos": 0.4375,
+    "batcaverna": 1.0,
+    "batman": 1.0,
+    "web": 1.0
+  },
+  "medias": {
+    "limite_atingido": 0.0,
+    "segundos": 6.1404,
+    "ToolHit": 0.5769,
+    "ToolRecall": 0.5769,
+    "ToolPrecision": 0.7593,
+    "NumToolCalls": 0.8846,
+    "TaxaSucesso": 0.8846,
+    "LatenciaMedia": 0.3352,
+    "JudgeScore": 7.3846,
+    "Faithfulness": 0.7227,
+    "AnswerRelevancy": 0.7891,
+    "BLEU": 0.1251,
+    "ROUGE-L": 0.3048,
+    "ArgsValidos": 1.0,
+    "ArgsAdequados": 1.0
+  },
+  "falhas_por_causa": {
+    "selecao_ferramenta": 6,
+    "ferramenta_falhou": 3
+  }
+}

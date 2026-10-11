@@ -1,0 +1,20 @@
+grupo,métrica,o que mede,rag_primeiro,livre
+1. Ferramentas,ToolHit,% de perguntas em que foi chamada pelo menos uma ferramenta esperada,0.8076923076923077,0.5769230769230769
+1. Ferramentas,ToolRecall,ferramentas esperadas que foram chamadas,0.8076923076923077,0.5769230769230769
+1. Ferramentas,ToolPrecision,ferramentas escolhidas pelo LLM que eram esperadas ou permitidas,0.8571428571428571,0.7592592592592592
+1. Ferramentas,NumToolCalls,chamadas a ferramentas por pergunta (média),1.2692307692307692,0.8846153846153846
+2. Argumentos,ArgsValidos,chamadas do LLM com argumentos válidos para o esquema da ferramenta,1.0,1.0
+2. Argumentos,ArgsAdequados,chamadas do LLM com argumentos adequados à pergunta (juiz),1.0,1.0
+3. Servidor MCP,TesteCorreto,testes diretos: chamadas com o resultado certo,1.0,1.0
+3. Servidor MCP,TesteRespondeu,testes diretos: chamadas a que o servidor respondeu,1.0,1.0
+3. Servidor MCP,TaxaSucesso,chamadas MCP do agente sem erro,1.0,0.8846153846153846
+3. Servidor MCP,LatenciaMedia,segundos por chamada MCP do agente,0.02414102564102564,0.3352115384615385
+4. Correção,Correctness,"% de respostas pass (Ragas, face à resposta esperada)",0.9230769230769231,0.6538461538461539
+4. Correção,JudgeScore,LLM-as-Judge 0-10 (prompt dos slides),9.26923076923077,7.384615384615385
+4. Correção,AnswerRelevancy,a resposta responde ao que foi perguntado,0.8444490184951958,0.7890879152975327
+4. Correção,BLEU,n-gramas em comum com a resposta esperada,0.2376079459395672,0.12511846078600652
+4. Correção,ROUGE-L,maior sequência de palavras em comum,0.4629519848134075,0.30484070937403107
+5. Fundamentação,Faithfulness,afirmações da resposta suportadas pelas saídas das ferramentas,0.7949175824175825,0.7226984126984128
+6. Falhas,selecao_ferramenta,o LLM não chamou a ferramenta esperada,1.0,6.0
+6. Falhas,ferramenta_falhou,uma chamada MCP devolveu erro (com argumentos bons),0.0,3.0
+6. Falhas,geracao,"chamou as ferramentas certas, sem erros, mas a resposta saiu errada",1.0,0.0

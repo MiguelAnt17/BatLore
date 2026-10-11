@@ -1,0 +1,123 @@
+[
+  {
+    "query_id": 1,
+    "user_query": "Quem assassinou os pais de Bruce Wayne?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Os pais de Bruce Wayne foram assassinados por Joe Chill."
+  },
+  {
+    "query_id": 2,
+    "user_query": "Quem fundou o Asilo Arkham e em honra de quem?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O Asilo Arkham foi fundado pelo psiquiatra Amadeus Arkham em honra da sua falecida mãe, Elizabeth Arkham."
+  },
+  {
+    "query_id": 3,
+    "user_query": "Qual é o nome verdadeiro da Arlequina?",
+    "ground_truth_doc_ids": [
+      "doc_17",
+      "doc_1"
+    ],
+    "ground_truth_answer": "Harleen Quinzel."
+  },
+  {
+    "query_id": 4,
+    "user_query": "Em que revista e em que ano se estreou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman estreou-se na revista Detective Comics #27, em 1939."
+  },
+  {
+    "query_id": 5,
+    "user_query": "Quem criou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman foi criado pelo escritor Bill Finger e pelo desenhista Bob Kane."
+  },
+  {
+    "query_id": 6,
+    "user_query": "Qual é o nome completo do Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Bruce Thomas Wayne."
+  },
+  {
+    "query_id": 7,
+    "user_query": "O que é o Poço de Lázaro?",
+    "ground_truth_doc_ids": [
+      "doc_16"
+    ],
+    "ground_truth_answer": "O Poço de Lázaro é uma mistura química de poções e venenos tóxicos e místicos que consegue curar corpos doentes ou feridos e ressuscitar os mortos; é por isso que Ra's al Ghul tem idade sobre-humana."
+  },
+  {
+    "query_id": 8,
+    "user_query": "De onde vem o nome Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bill Finger viu o nome \"Gotham Jewelers\" ao folhear a lista telefónica e escolheu Gotham City, depois de ter pensado em Civic City, Capital City e Coast City."
+  },
+  {
+    "query_id": 9,
+    "user_query": "Quais são os três moradores mais famosos de Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bruce Wayne (Batman), Alan Scott (o Lanterna Verde original) e Renee Montoya (a nova Questão)."
+  },
+  {
+    "query_id": 10,
+    "user_query": "De onde foi retirado o nome do Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O nome foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita nos contos de H.P. Lovecraft."
+  },
+  {
+    "query_id": 11,
+    "user_query": "Em que revista apareceu pela primeira vez o Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "Em Batman #258, de outubro de 1974, escrita por Dennis O'Neil com desenhos de Irv Novick."
+  },
+  {
+    "query_id": 12,
+    "user_query": "Onde fica a Batcaverna?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "A Batcaverna fica numa gruta abaixo dos alicerces da Mansão Wayne."
+  },
+  {
+    "query_id": 13,
+    "user_query": "Como é que Bruce Wayne descobriu as cavernas quando era criança?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "Bruce Wayne descobriu as cavernas quando caiu através de um poço dilapidado na sua propriedade."
+  },
+  {
+    "query_id": 14,
+    "user_query": "Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi vendido por 3,47 milhões de euros num leilão em Scottsdale, no Arizona, a 19 de janeiro de 2013."
+  },
+  {
+    "query_id": 15,
+    "user_query": "A partir de que carro foi construído o Batmóvel da série de televisão de 1966?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi construído por George Barris a partir de um Lincoln Futura."
+  }
+]

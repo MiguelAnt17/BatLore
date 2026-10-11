@@ -1,0 +1,7 @@
+,rag_primeiro,rag_primeiro,rag_primeiro,rag_primeiro,rag_primeiro,rag_primeiro,livre,livre,livre,livre,livre,livre
+,n,ToolHit,TaxaSucesso,Correctness,JudgeScore,Faithfulness,n,ToolHit,TaxaSucesso,Correctness,JudgeScore,Faithfulness
+categoria,,,,,,,,,,,,
+arquivos,16,1.0,1.0,1.0,9.3125,0.8557291666666667,16,0.3125,0.8854166666666666,0.4375,6.8125,0.6799999999999999
+batcaverna,4,1.0,1.0,1.0,10.0,0.9583333333333334,4,1.0,1.0,1.0,10.0,0.5833333333333334
+batman,1,1.0,1.0,0.0,10.0,0.0,1,1.0,1.0,1.0,2.0,0.75
+web,5,0.0,1.0,0.8,8.4,0.6285714285714286,5,1.0,0.7666666666666666,1.0,8.2,0.8714285714285713

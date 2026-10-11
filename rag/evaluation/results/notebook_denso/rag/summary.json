@@ -1,0 +1,116 @@
+{
+  "config": {
+    "mode": "rag",
+    "ground_truth": "/Users/miguelmauricioantonio/Documents/MIA/2/ILN/PROJECT/D2_D3_Miguel_Luís/d2_rag/evaluation/ground_truth_example.json",
+    "n_queries": 15,
+    "k": [
+      1,
+      3,
+      5
+    ],
+    "gen_k": 3,
+    "retriever": "denso",
+    "generator_model": "qwen2.5:7b",
+    "judge_model": "google/gemma-4-31b-it",
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "n_questions": 3,
+    "metric_groups": [
+      "retrieval",
+      "ragas",
+      "judge",
+      "correctness",
+      "lexical",
+      "token"
+    ]
+  },
+  "metrics": {
+    "P@1": {
+      "mean": 0.8666666666666667,
+      "n": 15
+    },
+    "R@1": {
+      "mean": 0.8333333333333334,
+      "n": 15
+    },
+    "Hit@1": {
+      "mean": 0.8666666666666667,
+      "n": 15
+    },
+    "P@3": {
+      "mean": 0.7999999999999999,
+      "n": 15
+    },
+    "R@3": {
+      "mean": 0.9666666666666667,
+      "n": 15
+    },
+    "Hit@3": {
+      "mean": 1.0,
+      "n": 15
+    },
+    "P@5": {
+      "mean": 0.7200000000000001,
+      "n": 15
+    },
+    "R@5": {
+      "mean": 0.9666666666666667,
+      "n": 15
+    },
+    "Hit@5": {
+      "mean": 1.0,
+      "n": 15
+    },
+    "MRR": {
+      "mean": 0.9222222222222222,
+      "n": 15
+    },
+    "ContextPrecision@3": {
+      "mean": 0.672222222163611,
+      "n": 15
+    },
+    "ContextRecall": {
+      "mean": 0.8,
+      "n": 15
+    },
+    "Faithfulness": {
+      "mean": 0.8666666666666667,
+      "n": 15
+    },
+    "AnswerRelevance": {
+      "mean": 0.8556604121524958,
+      "n": 15
+    },
+    "JudgeRating": {
+      "mean": 8.333333333333334,
+      "n": 15
+    },
+    "JudgeScore": {
+      "mean": 8.466666666666667,
+      "n": 15
+    },
+    "Correctness": {
+      "mean": 0.8666666666666667,
+      "n": 15
+    },
+    "BLEU": {
+      "mean": 0.28909060843225926,
+      "n": 15
+    },
+    "ROUGE-L": {
+      "mean": 0.5455803660521095,
+      "n": 15
+    },
+    "TokenF1": {
+      "mean": 0.5727599777562298,
+      "n": 15
+    },
+    "TokenPrecision": {
+      "mean": 0.5328354978354979,
+      "n": 15
+    },
+    "TokenRecall": {
+      "mean": 0.7020919820919821,
+      "n": 15
+    }
+  }
+}

@@ -1,0 +1,27 @@
+query_id,categoria,question,expected_answer
+1,arquivos,Quem assassinou os pais de Bruce Wayne?,Os pais de Bruce Wayne foram assassinados por Joe Chill.
+2,arquivos,Quem fundou o Asilo Arkham e em honra de quem?,"O Asilo Arkham foi fundado pelo psiquiatra Amadeus Arkham em honra da sua falecida mãe, Elizabeth Arkham."
+3,arquivos,Qual é o nome verdadeiro da Arlequina?,Harleen Quinzel.
+4,arquivos,Em que revista e em que ano se estreou o Batman?,"O Batman estreou-se na revista Detective Comics #27, em 1939."
+5,arquivos,Quem criou o Batman?,O Batman foi criado pelo escritor Bill Finger e pelo desenhista Bob Kane.
+6,arquivos,Qual é o nome completo do Batman?,Bruce Thomas Wayne.
+7,arquivos,O que é o Poço de Lázaro?,O Poço de Lázaro é uma mistura química de poções e venenos tóxicos e místicos que consegue curar corpos doentes ou feridos e ressuscitar os mortos; é por isso que Ra's al Ghul tem idade sobre-humana.
+8,arquivos,De onde vem o nome Gotham City?,"Bill Finger viu o nome ""Gotham Jewelers"" ao folhear a lista telefónica e escolheu Gotham City, depois de ter pensado em Civic City, Capital City e Coast City."
+9,arquivos,Quais são os três moradores mais famosos de Gotham City?,"Bruce Wayne (Batman), Alan Scott (o Lanterna Verde original) e Renee Montoya (a nova Questão)."
+10,arquivos,De onde foi retirado o nome do Asilo Arkham?,"O nome foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita nos contos de H.P. Lovecraft."
+11,arquivos,Em que revista apareceu pela primeira vez o Asilo Arkham?,"Em Batman #258, de outubro de 1974, escrita por Dennis O'Neil com desenhos de Irv Novick."
+12,arquivos,Onde fica a Batcaverna?,A Batcaverna fica numa gruta abaixo dos alicerces da Mansão Wayne.
+13,arquivos,Como é que Bruce Wayne descobriu as cavernas quando era criança?,Bruce Wayne descobriu as cavernas quando caiu através de um poço dilapidado na sua propriedade.
+14,arquivos,Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?,"Foi vendido por 3,47 milhões de euros num leilão em Scottsdale, no Arizona, a 19 de janeiro de 2013."
+15,arquivos,A partir de que carro foi construído o Batmóvel da série de televisão de 1966?,Foi construído por George Barris a partir de um Lincoln Futura.
+101,web,"Quem realizou o filme The Batman, de 2022?",O filme The Batman (2022) foi realizado por Matt Reeves.
+102,web,Que ator deu voz ao Batman na série Batman: The Animated Series?,Kevin Conroy deu voz ao Batman em Batman: The Animated Series.
+103,web,"Em que ano estreou o filme The Dark Knight, de Christopher Nolan?",The Dark Knight estreou em 2008.
+104,web,"Quem interpretou a Mulher-Gato no filme The Batman, de 2022?",A Mulher-Gato foi interpretada por Zoë Kravitz.
+105,web,Quais são as notícias mais recentes sobre o próximo filme do Batman?,"Resume notícias recentes sobre o próximo filme do Batman, com fonte ou data, obtidas com as ferramentas de pesquisa e sem inventar factos."
+201,batcaverna,"Alfred, em que estado está o Batmóvel?","Indica a blindagem, a energia/combustível, o estado e a localização do Batmóvel, com os valores devolvidos pela ferramenta estado_batmovel."
+202,batcaverna,Como está o tempo em Crime Alley?,"Descreve a temperatura, a condição atmosférica, a visibilidade e as anomalias químicas em Crime Alley, com os valores devolvidos pela ferramenta clima_gotham."
+203,batcaverna,O que tem o Bruce Wayne na agenda para amanhã?,Amanhã o Bruce Wayne tem um almoço com o Mayor às 12:30 e uma inspeção técnica aos laboratórios de I&D às 15:00.
+204,batcaverna,Marca na agenda de hoje do Bruce: 23:00 - Reunião com o Comissário Gordon.,Confirma que o compromisso '23:00 - Reunião com o Comissário Gordon' foi adicionado à agenda de hoje.
+205,batman,Pergunta ao Batman o que ele pensa do Coringa.,"Transmite a resposta do Batman obtida com a ferramenta perguntar_ao_batman, sem a inventar."
+206,arquivos,Que artigos tens nos arquivos do Batcomputador?,"Indica que há 18 artigos da Wikipédia sobre o Batman, Gotham, os aliados e os vilões (por exemplo Batman, Gotham City, Asilo Arkham e Coringa), tal como devolvido pela ferramenta listar_arquivos."

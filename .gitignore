@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated locally (rebuilt by scripts/preparar.py or on first run)
+rag/iln_batman/
+rag/iln_batman_en/
+logs/
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

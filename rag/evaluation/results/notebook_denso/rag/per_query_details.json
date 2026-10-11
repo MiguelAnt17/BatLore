@@ -1,0 +1,1508 @@
+[
+  {
+    "query_id": 1,
+    "user_query": "Quem assassinou os pais de Bruce Wayne?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Os pais de Bruce Wayne foram assassinados por Joe Chill.",
+    "generated_answer": "Os capangas de Cernak assassinaram os pais de Bruce Wayne.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_14",
+        "source": "pdffiles\\wiki_mulher_gato.pdf",
+        "page": 4,
+        "content": "assassinada pelos capangas de Cernak.[14] Logo depois da sua morte, Bruce Wayne pega o seu corpo e\nleva para a batcaverna e lá a Mulher-Gato ressuscita com algum tipo de maquina especifica do Batman\n(Bruce Wayne).\nEra de Ouro\nEra de Prata\nEra de Bronze e Terra 2"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 15,
+        "content": "clone assassino de seu filho para derrotar Bruce, mas o clone acaba matando o Damian Wayne original,\ncausando um impacto profundo em Wayne, que volta a ser um herói muito sombrio e solitário.[37]\nÉ uma organização pública financiada por Bruce Wayne, este que é o líder quando assume o manto de\nBatman. A corporação tem como objetivo obter recrutas de todo o mundo para treiná-los em corpo a\ncorpo e mentalmente, para espalharem os ideais de Batman. Teve primeira aparição em Batman and\nRobin vol 1-16, no ano de 2011.\nComo Batman, a personalidade de Bruce Wayne variou conforme o passar do tempo. As histórias mais\nnovas preferem mostrá-lo como uma pessoa que despreza tanto o contato social, quando as comodidades\ne frivolidades que sua fortuna podem lhe proporcionar, no entanto, mantendo-se fingindo que é playboy\npreguiçoso, sendo que o Batman, com uma personalidade forte e sombria, é a personalidade dominante, a"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 10,
+        "content": "Em 1940, Bruce adotou o órfão Dick Grayson, após seus pais, os Graysons Voadores, serem brutalmente\nassassinados durante sua apresentação no circo em Gotham. Dick tornou-se o parceiro de Batman, Robin.\nTambém em 1940, Batman tornou-se um dos membros fundadores da Sociedade da Justiça.[30]\nO Bruce Wayne dessa época vivia realmente como um playboy, aproveitando do que sua fortuna lhe\npropiciava e se divertia. Bruce Wayne era uma vida real.\nCom a introdução do Multiverso da DC Comics na década de 1960, foi descoberto que o Batman da Era\nde Ouro vivia na Terra 2.[nota 2] Também foi revelado que, em meados da década de 1950, Bruce Wayne\nfez parceria e se casou com a reformada Mulher-Gato, Selina Kyle.[31] A primeira filha do casal nasceu\nem 1957 e chamava-se Helena Wayne. As atividades do Batman se reduziram, ficando o Cavaleiro das\nTrevas semi-aposentado, aparecendo apenas para resolver casos especiais. Após a aposentadoria do"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 30,
+        "content": "Por isso, em alguns filmes do Batman, a cena do assassinato dos pais de Bruce é retratada, afim de\nmostrar a origem traumática do herói; e isso faz com que esses filmes acabem mostrando uma versão\ninfantil do personagem. Dos 14 filmes já produzidos, onde Bruce Wayne/Batman apareceu, até o\nmomento, a versão infantil do personagem, bem como, a fatídica cena do assassinato de seus pais,\napareceu em cinco deles: Batman (1989), Batman Forever (1995), Batman Begins (2005), Batman v\nSuperman: Dawn of Justice (2016) e Joker (2019).\nCom as exceções de Batman Begins (2005) - onde a versão jovem de Bruce tem outras cenas importantes,\nno começo do filme, além da cena do próprio assassinato dos pais, em si -; e Joker (2019) - onde toda a\nhistória do filme se passa apenas durante a infância de Bruce -; nos outros filmes, a versão infantil do\npersonagem só aparece rapidamente, como flashback, na cena focada no fatídico assassinato de seus pais.\nOutras aparições"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 9,
+        "content": "sua busca por justiça, permaneceram.\nConstante em todas as versões do Batman é o seu alter-ego: Bruce Wayne. Milionário, ou bilionário\n(dependendo da época), playboy, empresário e filantropo que optou por combater o crime em Gotham\nCity após o assassinato de seus pais, o médico Thomas Wayne e sua esposa Martha Wayne.\nA origem de Batman na Era de Ouro foi mostrada pela primeira vez em\nDetective Comics 27, em maio de 1939. Apenas em Batman #47, de\nJunho/Julho de 1948, foi mostrada mais detalhadamente. Segundo essas\nhistórias, Bruce Wayne nasceu em 1916, filho do Dr. Thomas Wayne e\nsua mulher Martha. Bruce foi para a Mansão Wayne onde teve uma vida\nfeliz e saudável até os oito anos, quando seus pais foram mortos por Joe\nChill, um ladrão vulgar, quando voltavam para casa, depois de assistir a\num filme no cinema. Após o acontecido, Bruce foi criado na Mansão\nWayne por seu tio, Philip Wayne.\nBruce jurou vingar-se. Treinou seu físico e intelecto, estudou diversas"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.124,
+    "generation_seconds": 11.377,
+    "metrics": {
+      "P@1": 0.0,
+      "R@1": 0.0,
+      "Hit@1": 0.0,
+      "P@3": 0.6666666666666666,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 0.5,
+      "ContextPrecision@3": 0.0,
+      "ContextRecall": 0.0,
+      "Faithfulness": 0.0,
+      "AnswerRelevance": 0.9999999999999232,
+      "JudgeRating": 0.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.25965358893403384,
+      "ROUGE-L": 0.5,
+      "TokenF1": 0.47058823529411764,
+      "TokenPrecision": 0.5,
+      "TokenRecall": 0.4444444444444444
+    },
+    "details": {
+      "relevance": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ]
+      ],
+      "judge_feedback": "The answer provided is incorrect. In the DC Comics canon, Bruce Wayne's parents (Thomas and Martha Wayne) were killed by a mugger, most famously identified as Joe Chill. \"Cernak\" is not the recognized killer of the Waynes in the standard lore.\n\nFeedback:::\nTotal rating: 0.0",
+      "correctness_reason": "The model response states that 'capangas de Cernak' killed Bruce Wayne's parents. However, the provided context mentions that someone (likely a female character based on the word 'assassinada') was killed by Cernak's henchmen, but it does not state that Bruce Wayne's parents were killed by them. The expected answer identifies Joe Chill as the killer, which is the correct factual answer, and the model response contradicts this and misinterprets the provided text.",
+      "error_type": "generation"
+    }
+  },
+  {
+    "query_id": 2,
+    "user_query": "Quem fundou o Asilo Arkham e em honra de quem?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O Asilo Arkham foi fundado pelo psiquiatra Amadeus Arkham em honra da sua falecida mãe, Elizabeth Arkham.",
+    "generated_answer": "O Asilo Arkham foi fundado pelo psiquiatra Amadeus Arkham em honra à sua finada mãe, Elizabeth Arkham.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "1980.[3]\nNo universo ficcional das histórias de Batman, o asilo foi fundado pelo psiquiatra Amadeus Arkham em\nhonra de sua finada mãe, Elizabeth Arkham. Antes de abrir o asilo, em 1 de abril de 1921, a esposa e filha\nde Amadeus foram estupradas e mutiladas por Martin \"Mad Dog\" Hawkins, um criminoso insano.\nQuando o asilo abriu suas portas, Hawkins foi um dos primeiros internos.[4] O doutor Arkham cuidou\ndele por 6 meses, porém o eletrocutou no aniversário do assassinato de sua família, em 1922. No fim, o\npróprio Amadeus se tornou insano e foi internado, morrendo no asilo.[4] Jeremiah Arkham é o neto de\nCriação\nOrigem"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "de Belle Reve), Ra's Al Ghul e Hugo Strange.\nO nome Arkham Asylum foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita\nem muitos dos contos de terror e de ficção científica de H.P. Lovecraft, com o primeiro a ser \"The\nUnnamable\" (1923).[2] O Asilo apareceu pela primeira vez em Batman #258 (Outubro de 1974), escrito\npor Dennis O'Neil com desenhos de Irv Novick. Nessa história o Asilo é descrito como \"Hospital\nArkham\", embora não tenha ficado claro na época que tipo de hospital era. A descrição \"Asilo Arkham\"\napareceu pela primeira vez no ano seguinte, noutra história de O'Neil, porém só em 1979 o nome \"Asilo\nArkham\" substituiu em definitivo \"Hospital Arkham\" (e o ocasional \"Sanatório Arkham\"), como o nome\nda instituição.\nInspirado por trabalhos de H.P. Lovecraft, o asilo foi criado pelo escritor Dennis O'Neil, com primeira\naparição em Batman #258 (Outubro 1974); muito de sua história foi criada por Len Wein durante os anos\n1980.[3]"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "Asilo Arkham\nInformações\nPrimeira\naparição\nBatman #258 (Outubro de\n1974)\nCriado por Dennis O'Neil\nIrv Novick\nPublicado por DC Comics\nTipo Asilo para os (criminosos)\ninsanos\nAsilo Arkham\nO Asilo Elizabeth Arkham para os Criminalmente\nInsanos (Elizabeth Arkham Asylum for the\nCriminally Insane),[1] frequentemente referido como\nArkham Asylum, ou simplesmente Arkham, é um\nhospital psiquiátrico fictício presente nas histórias de\nbanda desenhada americanas publicadas pela DC\nComics, mais frequentemente nas séries do super-herói\nBatman. Muitos criminosos psicóticos do Universo DC\njá foram internados em Arkham, a maioria deles\npertencentes ao universo Batman; como o Coringa,\nPinguim, Hera Venenosa, Charada, Duas-Caras,\nSenhor Frio, Espantalho, Bane, Crocodilo, Arlequina\n(como psíquiatra e internada ocasionalmente, por conta de ser incarcerada regularmente no penitenciário\nde Belle Reve), Ra's Al Ghul e Hugo Strange."
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 3,
+        "content": "Kartheiser)\nEm 2009, o Asilo Arkham foi o tema príncipal do novo jogo lançado para Xbox 360, PlayStation 3 e PC\nintitulado Batman: Arkham Asylum, onde o jogador guia o super-herói em busca do líder de uma rebelião,\njustamente o Coringa. O jogo ganhou continuações : Batman: Arkham City, Batman: Arkham Origins e\nBatman: Arkham Knight.[6]\n1. Grant Morrison, Dave McKean & Gaspar Saladino (1989). Arkham Asylum: A Serious House\non Serious Earth. [S.l.]: DC Comics\n2. Lovecraft, H.P (2010). The Best of H.P Lovecraft. [S.l.]: Carlton Books. p. 8. ISBN 978-1-\n85375-881-2\n3. DUNCAN, Randy, e SMITH, Matthew J. Icons of the American Comic Book: From Captain\nAmerica to Wonder Woman, Volume 1 (http://books.google.com.br/books?id=M_bRZ_et8BI\nC&dq). ABC-CLIO, 2013. P. 38 (em inglês)\n4. «Arkham Asylum». Eaglemoss. Masterprice Collection - Batman 75th Aniniversary: 22-23.\n2014\n5. Grant Morrison: From the Asylum to the Star (http://sequart.org/magazine/602/grant-morriso"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_12",
+        "source": "pdffiles\\wiki_charada.pdf",
+        "page": 3,
+        "content": "6. «Batman: Arkham Asylum» (https://web.archive.org/web/20121125142238/http://www.behind\nthevoiceactors.com/video-games/Batman-Arkham-Asylum/side-by-side/). Behind the Voice\nActors. Consultado em 26 de janeiro de 2020. Arquivado do original (http://www.behindthevo\niceactors.com/video-games/Batman-Arkham-Asylum/side-by-side/) em 25 de novembro de\n2012\n«Batman: Arkham City» (http://www.behindthevoiceactors.com/video-games/Batman-Ark\nham-City/side-by-side/). Behind the Voice Actors. Consultado em 26 de janeiro de 2020\nClow, Chris (31 de outubro de 2013). «Game Review - Batman: Arkham Origins, Plus\nCollector's Edition Extras» (https://web.archive.org/web/20131102145745/http://geeknati\non.com/game-review-batman-arkham-origins-plus-collectors-edition-extras/).\nGeekNation. Consultado em 26 de janeiro de 2020. Arquivado do original (http://geeknati\non.com/game-review-batman-arkham-origins-plus-collectors-edition-extras/) em 2 de\nnovembro de 2013"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.062,
+    "generation_seconds": 1.108,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.966158439758105,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.7443733193120506,
+      "ROUGE-L": 0.9142857142857143,
+      "TokenF1": 0.875,
+      "TokenPrecision": 0.875,
+      "TokenRecall": 0.875
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        []
+      ],
+      "judge_feedback": "Feedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response accurately identifies both the founder (Amadeus Arkham) and the person in whose honor it was founded (Elizabeth Arkham), matching the expected answer and the provided context perfectly."
+    }
+  },
+  {
+    "query_id": 3,
+    "user_query": "Qual é o nome verdadeiro da Arlequina?",
+    "ground_truth_doc_ids": [
+      "doc_17",
+      "doc_1"
+    ],
+    "ground_truth_answer": "Harleen Quinzel.",
+    "generated_answer": "A verdadeira identidade da Arlequina é Harleen Quinzel.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_17",
+        "source": "pdffiles\\wiki_arlequina.pdf",
+        "page": 1,
+        "content": "do Prêmio Eisner. Seu nome foi baseado no arlequim,\ncom a intenção de ser um trocadilho ao seu nome\noriginal, Harleen Quinzel. Arlequina é frequentemente\ncúmplice e companheira amorosa do vilão Coringa, o\nqual ela conheceu enquanto trabalhava como psicóloga\nno Asilo Arkham, onde o Coringa era paciente. E conta\ntambém no filme Esquadrão Suicida e Aves de Rapina.\nO reboot da Arlequina a partir de Os Novos 52,\ngarantiu-lhe uma série própria, longe das histórias do\nBatman e do Coringa. A partir de Os Novos 52,\nArlequina foi retratada como uma anti-heroína, agindo\ncomo justiceira ao invés de criminosa,[6] O sucesso"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_17",
+        "source": "pdffiles\\wiki_arlequina.pdf",
+        "page": 8,
+        "content": "de Batman. Ela é gravemente ferida pela Mulher Maravilha, mas salva por Supergirl. No seu final de um\njogador, Arlequina aceita a oferta de Batman para se juntar à Liga da Justiça enquanto ainda atua como a\ntia de sua filha Lucy Quinzel.[80]\nArlequina foi lida como tendo transtorno de personalidade dependente, bem como mostrando\ncomportamento anti-social tipicamente de vilão.[81] Kate Roddy descreve Arlequina como uma \"mulher\nambiciosa com uma carreira que desiste de sua autonomia para se tornar uma ajudante abusada\", e discute\nas respostas dos fãs para a personagem.[82]\nChris Sims descreve a abordagem da série animada a mostrando como \"uma versão da personagem que\nestá tendo suas aventuras agora\", e considera que a escolha como sendo uma parte fundamental da\nprodução da Arlequina. Chris Sims a descreve como o Robin do Coringa.[83]\n1. Barba, Shelley E.; Perrin, Joy M., eds. (2017). The Ascendance of Harley Quinn: Essays on"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_17",
+        "source": "pdffiles\\wiki_arlequina.pdf",
+        "page": 5,
+        "content": "Harley Quinn #7, em Os Novos 52,\nagosto de 2014. Na capa, Arlequina e\nHera Venenosa.\nqualquer conexão significativa para Batman ou o Coringa na\nsequência do enredo de \"Death of the Family\". Na série,\nArlequina tornou-se uma senhoria em Coney Island, é uma\nmembro a tempo parcial de uma equipe de roller derby e\nvoltou ao trabalho psiquiátrico com seu nome real, indicando\nque a verdadeira identidade de Harley não é do conhecimento\npúblico no novo status quo.\nSob a escrita de Conner e Palmiotti, Harley foi reinventada\ncomo um anti-heroína, que valoriza a vida humana e\nativamente tenta melhorar a vida no seu bairro. Entre as\nedições de #11 e #13, Harley formou uma breve parceria com\numa amnésica Poderosa e lutou contra o Rei Relógio e Mestre\ndos Esportes antes da memória de Poderosa ser restaurada e\nela deixou Harley no topo da Torre Eiffel, como punição por\ntê-la enganado.[48] Harley tenta coagir uma ligação romântica\ncom seu inquilino Mason, mas foi incapaz de namorarem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_17",
+        "source": "pdffiles\\wiki_arlequina.pdf",
+        "page": 4,
+        "content": "Uma série da Arlequina foi publicada mensalmente pela DC Comics durante 38 edições, entre 2001 e\n2003.[38] Entre os criadores do título estão Karl Kesel, Terry Dodson, A.J. Lieberman e Mike Huddleston.\nA série termina com Arlequina retornando por conta própria ao Asilo Arkham. Ela então aparece na série\nBatman:Hush, de Jeph Loeb. Reaparece na edição de Villains United como um dos principais vilões que\nescapam de Arkham, porém perde a consciência durante a fuga. É brevemente mencionada em Detective\nComics #823, voltando a aparecer em Batman #663 (onde ajuda o plano do Coringa a matar seus\ncapangas, sem perceber que é uma armadilha onde é a verdadeira vítima; quando descobre ser o alvo,\nArlequina dá um tiro no ombro de Coringa).\nReapareceu como coprotagonista em \"Gotham City Sirens\", ao lado da Mulher Gato e de Hera Venenosa;\nna série mensal, as três decidem dividir um esconderijo. Elas têm uma série de bons momentos juntas, até"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_17",
+        "source": "pdffiles\\wiki_arlequina.pdf",
+        "page": 11,
+        "content": "67. «Como começou o romance entre Arlequina e Hera Venenosa?» (https://rollingstone.uol.co\nm.br/amp/noticia/como-comecou-o-romance-entre-arlequina-e-hera-venenosa-conheca/).\nRolling Stones Brasil\n68. Evan Narcisse. \"DC Comics: Harley Quinn & Poison Ivy Are Girlfriends \"Without\nMonogamy\"\" (https://kotaku.com/dc-comics-harley-quinn-poison-ivy-are-girlfriends-w-171103\n8615). Kotaku\n69. Grunenwald, Joe (24 de junho de 2019). «INTERVIEW: Karl Kesel and David Hahn on their\nlatest Kickstarter, IMPOSSIBLE JONES» (https://www.comicsbeat.com/interview-karl-kesel-\ndavid-hahn-impossible-jones/). The Beat. Consultado em 2 de outubro de 2021\n70. «SDCC: \"Justice League Dark\" Animated Film Confirmed; \"Teen Titans\" & More Announced»\n(https://www.cbr.com/sdcc-justice-league-dark-animated-film-confirmed-teen-titans-more-an\nnounced/). CBR (em inglês). 23 de julho de 2016. Consultado em 1 de novembro de 2020"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.039,
+    "generation_seconds": 0.815,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 0.5,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 0.5,
+      "Hit@3": 1.0,
+      "P@5": 1.0,
+      "R@5": 0.5,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.8002863724109579,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.17747405280050266,
+      "ROUGE-L": 0.4444444444444445,
+      "TokenF1": 0.4444444444444445,
+      "TokenPrecision": 0.2857142857142857,
+      "TokenRecall": 1.0
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_17"
+        ],
+        [
+          "doc_17"
+        ],
+        [
+          "doc_17"
+        ],
+        [
+          "doc_17"
+        ],
+        [
+          "doc_17"
+        ]
+      ],
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response correctly identifies the real name of Harley Quinn as 'Harleen Quinzel', which matches the expected answer and the provided context."
+    }
+  },
+  {
+    "query_id": 4,
+    "user_query": "Em que revista e em que ano se estreou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman estreou-se na revista Detective Comics #27, em 1939.",
+    "generated_answer": "O Batman estreou no 27.º número da revista Detective Comics, em 30 de março de 1939.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 4,
+        "content": "Diversos vilões conhecidos de Batman estrearam em Detective Comics durante esse período. O Pinguim\nsurgiu na edição #58, de dezembro de 1941;[20] Duas-Caras estreou na edição #66;[21] e o Charada\napareceu pela primeira vez na edição #140.[22] O Espantalho surgiu em uma história publicada em\nWorld's Finest Comics #3, de setembro de 1941.[23]\nCriadores como Jerry Robinson e Dick Sprang trabalharam como desenhistas nas histórias de Batman\ndurante esse período, inicialmente sob a supervisão de Kane.[25] No período pós-guerra, Batman afastou-\nse do ambiente sombrio e ameaçador das histórias do início da década de 1940, passando a ser retratado\ncomo um cidadão respeitável e uma figura paternal em um ambiente mais colorido.[26]\nDurante a década de 1950, Batman passou a protagonizar histórias mais leves e influenciadas pela ficção\ncientífica.[27] Senhor Frio foi introduzido à galeria de inimigos do personagem durante esse período.[28]"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 1,
+        "content": "Theakston observa que a história foi publicada no dia\n13 de dezembro de 1940, pouco antes de Batman #4\nser publicada.[3]\nOrigem do nome"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 1,
+        "content": "Batman\nPersonagem de DC Comics\nInformações gerais\nPrimeira aparição Detective Comics #27\n(maio de 1939; publicado\nem 30 de março de\n1939)\nCriado(a) por Bob Kane e Bill Finger\nEditora DC Comics\nInformações pessoais\nEstado atual Ativo\nNome completo Bruce Thomas Wayne\nCodinomes\nconhecidos\nHomem-Morcego\nCavaleiro das Trevas\nCruzado Encapuzado\nMatches Malone\nMaior Detetive do Mundo\nFamília e relacionamentos\nFamília Thomas Wayne (pai,\nfalecido)\nMartha Wayne (mãe,\nfalecida)\nAlfred Pennyworth (tutor)\nBatman\nBatman[nota 1] é um super-herói que aparece nas\nhistórias em quadrinhos americanas publicadas pela\nDC Comics. Batman foi criado pelo escritor Bill\nFinger e pelo desenhista Bob Kane, estreando no 27.º\nnúmero da revista Detective Comics, em 30 de março\nde 1939. No Universo DC, Batman é o alter ego de\nBruce Wayne, um rico playboy, filantropista e\nindustrialista americano que reside na fictícia Gotham\nCity. Originalmente milionário, o personagem passou"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 9,
+        "content": "sua busca por justiça, permaneceram.\nConstante em todas as versões do Batman é o seu alter-ego: Bruce Wayne. Milionário, ou bilionário\n(dependendo da época), playboy, empresário e filantropo que optou por combater o crime em Gotham\nCity após o assassinato de seus pais, o médico Thomas Wayne e sua esposa Martha Wayne.\nA origem de Batman na Era de Ouro foi mostrada pela primeira vez em\nDetective Comics 27, em maio de 1939. Apenas em Batman #47, de\nJunho/Julho de 1948, foi mostrada mais detalhadamente. Segundo essas\nhistórias, Bruce Wayne nasceu em 1916, filho do Dr. Thomas Wayne e\nsua mulher Martha. Bruce foi para a Mansão Wayne onde teve uma vida\nfeliz e saudável até os oito anos, quando seus pais foram mortos por Joe\nChill, um ladrão vulgar, quando voltavam para casa, depois de assistir a\num filme no cinema. Após o acontecido, Bruce foi criado na Mansão\nWayne por seu tio, Philip Wayne.\nBruce jurou vingar-se. Treinou seu físico e intelecto, estudou diversas"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 3,
+        "content": "o restante de sua vida à luta contra os criminosos.[11]\nBatman tornou-se o principal personagem das capas de Detective Comics a partir da edição #35, de\njaneiro de 1940.[13] O personagem recebeu sua própria revista na primavera de 1940. Robin, parceiro de\nBatman, foi introduzido em Detective Comics #38, de abril de 1940, tornando o tom das histórias mais\nHistória da publicação\nCriação e história inicial\nEra de Ouro"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.044,
+    "generation_seconds": 1.066,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 0.6666666666666666,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.3333333333,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9741380540464211,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.12109013026441869,
+      "ROUGE-L": 0.5517241379310345,
+      "TokenF1": 0.6153846153846154,
+      "TokenPrecision": 0.5,
+      "TokenRecall": 0.8
+    },
+    "details": {
+      "relevance": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_1"
+        ],
+        [],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ]
+      ],
+      "judge_feedback": "Feedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response accurately identifies the magazine (Detective Comics #27) and the year (1939), which matches the expected answer and the provided context."
+    }
+  },
+  {
+    "query_id": 5,
+    "user_query": "Quem criou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman foi criado pelo escritor Bill Finger e pelo desenhista Bob Kane.",
+    "generated_answer": "Bob Kane criou o personagem inicialmente, com contribuições significativas de Bill Finger.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 9,
+        "content": "sua busca por justiça, permaneceram.\nConstante em todas as versões do Batman é o seu alter-ego: Bruce Wayne. Milionário, ou bilionário\n(dependendo da época), playboy, empresário e filantropo que optou por combater o crime em Gotham\nCity após o assassinato de seus pais, o médico Thomas Wayne e sua esposa Martha Wayne.\nA origem de Batman na Era de Ouro foi mostrada pela primeira vez em\nDetective Comics 27, em maio de 1939. Apenas em Batman #47, de\nJunho/Julho de 1948, foi mostrada mais detalhadamente. Segundo essas\nhistórias, Bruce Wayne nasceu em 1916, filho do Dr. Thomas Wayne e\nsua mulher Martha. Bruce foi para a Mansão Wayne onde teve uma vida\nfeliz e saudável até os oito anos, quando seus pais foram mortos por Joe\nChill, um ladrão vulgar, quando voltavam para casa, depois de assistir a\num filme no cinema. Após o acontecido, Bruce foi criado na Mansão\nWayne por seu tio, Philip Wayne.\nBruce jurou vingar-se. Treinou seu físico e intelecto, estudou diversas"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 3,
+        "content": "No início de 1939, após o sucesso do Superman, os editores da DC Comics solicitaram a criação de novos\nsuper-heróis.[4] Bob Kane criou Batman, inicialmente desenhando um personagem com collants\nvermelhos, asas de morcego e uma máscara dominó. Seu colaborador Bill Finger fez contribuições\nsignificativas ao conceito, sugerindo um capuz, uma capa, luvas e um uniforme mais escuro. O alter ego\nBruce Wayne foi inspirado nas figuras históricas Robert the Bruce e Mad Anthony Wayne.[5]\nComo um herói aristocrático com uma identidade dupla, Batman possui predecessores em personagens\ncomo The Scarlet Pimpernel (criado por Baronesa Emma Orczy, em 1903) e Zorro (criado por Johnston\nMcCulley, em 1919). Assim como esses personagens, Batman realiza seus feitos heroicos em segredo,\nevita suspeitas ao assumir uma personalidade indiferente em público e deixa sua marca por meio de um\nsímbolo característico. Kane citou como influências os filmes The Mark of Zorro (1920) e The Bat"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 4,
+        "content": "Anteriormente, Bob Kane era creditado como o criador oficial do Batman, inspirado em um esboço de\nLeonardo Da Vinci, em heróis pulps como Zorro e O Sombra e o filme The Bat. Porém, é amplamente\naceito que o escritor Bill Finger foi decisivo na formação de pontos-chave do herói, como a capa, o\ncapuz, os personagens coadjuvantes, a Batcaverna, o Batmóvel, as roupas negras, o nome civil \"Bruce\nWayne\", o nome e a temática sombria de Gotham e a maioria dos equipamentos que consagraram o\nBatman, evoluindo-o de um mascarado estereotipado para um dos super-heróis mais lucrativos de todos\nos tempos.[29]\nCom histórias em quadrinhos publicadas ininterruptamente desde maio de 1939, passando por várias\nrevistas diferentes, Batman já teve aventuras criadas e desenhadas por muitos artistas. No entanto, alguns,\nou devido à importância de determinada história clássica, ou pela contribuição que tiveram para"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_9",
+        "source": "pdffiles\\wiki_coringa.pdf",
+        "page": 2,
+        "content": "deram a sua voz ao personagem animado.\nDurante a década de 1940, o Batman já era popular o suficiente para estrelar uma série independente na\nrevista Detective Comics. Lá, ele se apresenta ao vilão lançado como Coringa. A autoria para a criação do\npersonagem é contestada. Jerry Robinson sempre disse que foi quem o criou,[11] mas de acordo com Bob\nKane:\nCriação"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 10,
+        "content": "revisões e novos diretores durante as publicações das histórias.\nAssim como o Batman da Era de Ouro, o Batman da Era de Prata foi criado por seus pais até os oito anos,\nquando testemunhou o assassinato deles por Joe Chill, sendo então criado por seu mordomo Alfred (em\nvez de ser criado pelo seu tio). Bruce jurou vingar-se de todos os criminosos, dedicando sua vida a um\ntreinamento rigoroso.\nEm algum ponto no começo de seu treinamento, Bruce vestiu uma fantasia similar à do futuro Robin,\nrecebendo, anonimamente, treinamento de um policial de Gotham, Harvey Harris.[34] Ele e seus\nguardiães também visitaram Smallville (ou Pequenópolis), onde conheceu o jovem super-herói\nSuperboy[nota 3] e trabalhou com ele em diversos casos. Bruce Wayne frequentou a faculdade com o\npropósito de estudar criminologia e cursos relacionados às leis, mas logo decidiu que ser um oficial de\nEra de Prata"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.045,
+    "generation_seconds": 0.932,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.5833333333041666,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.6555567829053114,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.08493098745313142,
+      "ROUGE-L": 0.23076923076923078,
+      "TokenF1": 0.34782608695652173,
+      "TokenPrecision": 0.36363636363636365,
+      "TokenRecall": 0.3333333333333333
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [],
+        [
+          "doc_1"
+        ]
+      ],
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response correctly identifies both Bob Kane and Bill Finger as the creators/contributors to the character, which aligns with the key information in the expected answer and the provided context."
+    }
+  },
+  {
+    "query_id": 6,
+    "user_query": "Qual é o nome completo do Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Bruce Thomas Wayne.",
+    "generated_answer": "O nome completo do Batman é Bruce Wayne.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 9,
+        "content": "sua busca por justiça, permaneceram.\nConstante em todas as versões do Batman é o seu alter-ego: Bruce Wayne. Milionário, ou bilionário\n(dependendo da época), playboy, empresário e filantropo que optou por combater o crime em Gotham\nCity após o assassinato de seus pais, o médico Thomas Wayne e sua esposa Martha Wayne.\nA origem de Batman na Era de Ouro foi mostrada pela primeira vez em\nDetective Comics 27, em maio de 1939. Apenas em Batman #47, de\nJunho/Julho de 1948, foi mostrada mais detalhadamente. Segundo essas\nhistórias, Bruce Wayne nasceu em 1916, filho do Dr. Thomas Wayne e\nsua mulher Martha. Bruce foi para a Mansão Wayne onde teve uma vida\nfeliz e saudável até os oito anos, quando seus pais foram mortos por Joe\nChill, um ladrão vulgar, quando voltavam para casa, depois de assistir a\num filme no cinema. Após o acontecido, Bruce foi criado na Mansão\nWayne por seu tio, Philip Wayne.\nBruce jurou vingar-se. Treinou seu físico e intelecto, estudou diversas"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 22,
+        "content": "Batman é provavelmente o personagem que já estrelou mais edições de Elseworlds (publicação de\nhistórias em um mundo à parte em eventos nao-convencionais). Já foi retratado como um cavaleiro\nmedieval, um burguês do século XIX e mesmo num futuro cibernético no qual enfrentava um vírus de\ncomputador chamado Coringa (na história Digital Justice). Isto se deve provavelmente à maior facilidade\nde adaptar a base de sua história a outros cenários, visto se tratar de um ser humano normal, sem poderes.\nTrilogia Batman & Drácula: Chuva Rubra / Tempestade de Sangue / Bruma Escarlate,\nescrita por Doug Moench e desenhada por Kelley Jones, com arte-final de Malcom Jones III\ne Les Dorscheid no primeiro capítulo e John Beaty nos dois últimos.\nSérie O Reino do Amanhã (Kingdom Come) com texto de Mark Waid e traços realistas de\nAlex Ross. Nessa minissérie de quatro edições, é mostrado um Batman diferente e\nenvelhecido, mas nem por isso menos brilhante. A saga é considerada um marco na"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 36,
+        "content": "«Página oficial» (http://www.batman.com)\nBatman (https://www.instagram.com/Batman/) no Instagram\nInventário das HQ do Batman (1940–presente) (https://web.archive.org/web/201210251719\n07/http://www.comicsinventory.com/Search/Title/01b8774d-ecd5-4843-b456-9bf100018b07)\nMais informações (https://donerd.com.br/)\nObtida de \"https://pt.wikipedia.org/w/index.php?title=Batman&oldid=72991884\"\nBibliografia\nLigações externas"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 4,
+        "content": "Anteriormente, Bob Kane era creditado como o criador oficial do Batman, inspirado em um esboço de\nLeonardo Da Vinci, em heróis pulps como Zorro e O Sombra e o filme The Bat. Porém, é amplamente\naceito que o escritor Bill Finger foi decisivo na formação de pontos-chave do herói, como a capa, o\ncapuz, os personagens coadjuvantes, a Batcaverna, o Batmóvel, as roupas negras, o nome civil \"Bruce\nWayne\", o nome e a temática sombria de Gotham e a maioria dos equipamentos que consagraram o\nBatman, evoluindo-o de um mascarado estereotipado para um dos super-heróis mais lucrativos de todos\nos tempos.[29]\nCom histórias em quadrinhos publicadas ininterruptamente desde maio de 1939, passando por várias\nrevistas diferentes, Batman já teve aventuras criadas e desenhadas por muitos artistas. No entanto, alguns,\nou devido à importância de determinada história clássica, ou pela contribuição que tiveram para"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_11",
+        "source": "pdffiles\\wiki_duas_caras.pdf",
+        "page": 4,
+        "content": "1. P.H Mota. «Duas Caras, quem é? Origem e história do vilão icônico do Batman» (https://seg\nredosdomundo.r7.com/duas-caras-batman/). Segredos do Mundo. Consultado em 20 de\nagosto de 2022. Cópia arquivada em 18 de janeiro de 2026 (http://web.archive.org/web/202\n60118094158/https://segredosdomundo.r7.com/duas-caras-batman/)\n2. «Billy Dee Williams Talks Two-Face, Did Not Get Paid For Batman Forever» (http://comicboo\nk.com/blog/2013/11/02/billy-dee-williams-talks-two-face-did-not-get-paid-for-batman-forever/)\n(em inglês). Comicbook.com. 2 de novembro de 2013. Consultado em 20 de setembro de\n2014. Cópia arquivada em 7 de janeiro de 2020 (http://web.archive.org/web/2020010723522\n9/http://comicbook.com/blog/2013/11/02/billy-dee-williams-talks-two-face-did-not-get-paid-for\n-batman-forever/)\n3. Marcelo Hessel (16 de julho de 2007). «The Dark Knight: Aaron Eckhart confirma Duas-\nCaras e mais fotos de Coringa no set» (https://www.omelete.com.br/batman-o-cavaleiro-das"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.028,
+    "generation_seconds": 0.489,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 0.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9999999999999183,
+      "JudgeRating": 10.0,
+      "JudgeScore": 8.0,
+      "Correctness": 1.0,
+      "BLEU": 0.10552670315936317,
+      "ROUGE-L": 0.4,
+      "TokenF1": 0.4,
+      "TokenPrecision": 0.2857142857142857,
+      "TokenRecall": 0.6666666666666666
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        [
+          "doc_1"
+        ],
+        []
+      ],
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response provides 'Bruce Wayne', which is the primary name mentioned in the context. While the expected answer is 'Bruce Thomas Wayne', the provided context only explicitly mentions 'Bruce Wayne' and his father 'Thomas Wayne', but never explicitly combines them into the full name 'Bruce Thomas Wayne'. Therefore, the model's answer is accurate based on the provided text."
+    }
+  },
+  {
+    "query_id": 7,
+    "user_query": "O que é o Poço de Lázaro?",
+    "ground_truth_doc_ids": [
+      "doc_16"
+    ],
+    "ground_truth_answer": "O Poço de Lázaro é uma mistura química de poções e venenos tóxicos e místicos que consegue curar corpos doentes ou feridos e ressuscitar os mortos; é por isso que Ra's al Ghul tem idade sobre-humana.",
+    "generated_answer": "Os sistemas não têm registos sobre o Poço de Lázaro.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_12",
+        "source": "pdffiles\\wiki_charada.pdf",
+        "page": 1,
+        "content": "Supervillains. Nova Iorque: Facts on File.\np. 299. ISBN 0-8160-1356-X\n2. Quintas, Francisco (10 de março de 2017).\n«Saiba tudo sobre a origem do Charada!» (htt\nps://www.aficionados.com.br/historia-origem-c\nharada-batman/). Aficionados. Consultado em\n26 de janeiro de 2020\nReferências"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 8,
+        "content": "esquemas e roubos. Eles têm uma visão niilista e parecem insanos, se vestem como\npalhaços e pessoas do circo para se associarem ao Coringa.\nGangue do Espantalho – Liderado pelo ex-psiquiátrica Jonathan Crane, esta gangue\nutiliza a \"toxina do medo\" do Espantalho para parecerem etéreos e demoníacos,\ndeturpando as percepções de suas vítimas e variando de um criminoso comum a uma\nvasta galeria de monstruosas alucinações enganosas.\nGangue do Charada – Liderado por Edward Nygma, esta gangue é conhecida por\ndeixar enigmas e quebra-cabeças levando a armadilhas mortais em suas cenas de\ncrime.\nGangue do Pinguim – Liderado por Oswald Cobblepot, essa gangue foi uma vez o\nprincipal poder em Gotham até que foi derrubado pela Intergangue, mas foi restaurada\nao poder por Batman.\nGangue do Duas Caras – Liderado por Harvey Dent.\nGangue do Bane – Dirigida pelo filho do Rei Serpente, Bane, membros dessa gangue\nusam a droga Veneno de Bane para fazê-los mais resistentes."
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_16",
+        "source": "pdffiles\\wiki_ras_al_ghul.pdf",
+        "page": 2,
+        "content": "\"Cabeça do Demônio\";\nalgumas vezes\nromanizado como Rā's al\nGhūl ou Rä's al Ghül)\nCodinomes\nconhecidos\nTerry Gene Kase\nHenri Ducard\nPseudônimos A Cabeça do\nDemônio[1] · O\nDemônio · Henry Ducard\nNascimento Incerto, algum momento\ndurante as Cruzadas,\nanterior ao século XVII\nOrigem Incerto, Oriente Médio,\nleste do Norte da África,\nem uma cidade rica\ngovernada por um sultão\n(mundo árabe)\nCaracterísticas físicas\nSexo Masculino\nEstatura 1,93 m\nPeso 98 kg\nFamília e relacionamentos\nParentes Athanasia al Ghul (neta)\nDamian Wayne (neto)\nMara al Ghul (neta)\nTrigon (irmão)\nDajjal (irmão)\nFilhos Talia al Ghul (filha)\nArkady Duvall (filho, no\nDCAU)\nNyssa al Ghul (filha)\nDusan al Ghul (filho)\nFarhad al Ghul (filho)\nAli al Ghul (filho, na Terra\n11)\nInformações profissionais\nPoderes Intelecto à nível genial\nMestre estrategista e\ntático\nacumulando conhecimento, riqueza, tecnologia e\npoder. Com o tempo, Ra's desenvolveu uma filosofia\nparticular, a qual atraiu seguidores radicais dispostos a"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_12",
+        "source": "pdffiles\\wiki_charada.pdf",
+        "page": 3,
+        "content": "Polygon. Consultado em 26 de janeiro de 2020. Arquivado do original (http://www.polygo\nn.com/2016/7/14/12185398/batman-arkham-underworld-ios-mobile-game-trailer) em 14\nde julho de 2016\n7. Reuters (18 de maio de 2005). «Morre Frank Gorshin, o Charada da série \"Batman\" dos\nanos 1960» (https://noticias.uol.com.br/ultnot/2005/05/18/ult26u18978.jhtm). Universo\nOnline. Consultado em 26 de janeiro de 2020\n8. R.A. DeCandido, Keith (16 de setembro de 2016). «Holy Rewatch Batman! \"Batman's\nAnniversary\" / \"A Riddling Controversy\" » (https://www.tor.com/2016/09/16/holy-rewatch-bat\nman-batmans-anniversary-a-riddling-controversy/). Tor.com. Consultado em 26 de janeiro\nde 2020\n9. Ribeiro, Felipe (4 de outubro de 2017). «Tommy Lee Jones odiava trabalhar com Jim Carrey\nem Batman Eternamente» (http://www.adorocinema.com/noticias/filmes/noticia-134618/).\nAdoroCinema. Consultado em 26 de janeiro de 2020\n10. Yamato, Jen (1 de abril de 2014). «Cory Michael Smith joins Fox's Batman series Gotham"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_11",
+        "source": "pdffiles\\wiki_duas_caras.pdf",
+        "page": 4,
+        "content": "1. P.H Mota. «Duas Caras, quem é? Origem e história do vilão icônico do Batman» (https://seg\nredosdomundo.r7.com/duas-caras-batman/). Segredos do Mundo. Consultado em 20 de\nagosto de 2022. Cópia arquivada em 18 de janeiro de 2026 (http://web.archive.org/web/202\n60118094158/https://segredosdomundo.r7.com/duas-caras-batman/)\n2. «Billy Dee Williams Talks Two-Face, Did Not Get Paid For Batman Forever» (http://comicboo\nk.com/blog/2013/11/02/billy-dee-williams-talks-two-face-did-not-get-paid-for-batman-forever/)\n(em inglês). Comicbook.com. 2 de novembro de 2013. Consultado em 20 de setembro de\n2014. Cópia arquivada em 7 de janeiro de 2020 (http://web.archive.org/web/2020010723522\n9/http://comicbook.com/blog/2013/11/02/billy-dee-williams-talks-two-face-did-not-get-paid-for\n-batman-forever/)\n3. Marcelo Hessel (16 de julho de 2007). «The Dark Knight: Aaron Eckhart confirma Duas-\nCaras e mais fotos de Coringa no set» (https://www.omelete.com.br/batman-o-cavaleiro-das"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.022,
+    "generation_seconds": 0.765,
+    "metrics": {
+      "P@1": 0.0,
+      "R@1": 0.0,
+      "Hit@1": 0.0,
+      "P@3": 0.3333333333333333,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.2,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 0.3333333333333333,
+      "ContextPrecision@3": 0.0,
+      "ContextRecall": 0.0,
+      "Faithfulness": 0.0,
+      "AnswerRelevance": 0.0,
+      "JudgeRating": 0.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.012877695624321532,
+      "ROUGE-L": 0.21428571428571427,
+      "TokenF1": 0.18604651162790695,
+      "TokenPrecision": 0.5,
+      "TokenRecall": 0.11428571428571428
+    },
+    "details": {
+      "relevance": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "hit_ids": [
+        [],
+        [],
+        [
+          "doc_16"
+        ],
+        [],
+        []
+      ],
+      "judge_feedback": "0.0",
+      "correctness_reason": "The model response states that there are no records of the 'Poço de Lázaro', whereas the expected answer provides a detailed definition of it. Although the provided context snippet is fragmented and does not explicitly contain the definition of the Lazarus Pit, the model failed to provide the information requested in the 'Expected Answer' and simply claimed a lack of records.",
+      "error_type": "generation"
+    }
+  },
+  {
+    "query_id": 8,
+    "user_query": "De onde vem o nome Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bill Finger viu o nome \"Gotham Jewelers\" ao folhear a lista telefónica e escolheu Gotham City, depois de ter pensado em Civic City, Capital City e Coast City.",
+    "generated_answer": "O nome Gotham City foi sugerido pelo escritor Bill Finger, inicialmente chamando-a de \"Civic City\", depois \"Capital City\" e \"Coast City\". Por fim, ele encontrou o nome \"Gotham Jewelers\" na lista telefônica e decidiu usar \"Gotham City\", para evitar que a cidade se identificasse diretamente com Nova Iorque.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 2,
+        "content": "Esta imagem de Nova Iorque destaca\na inspiração real por trás de Gotham City,\nrefletindo a atmosfera urbana e sombria\nque define a cidade fictícia na história do\nBatman.\nng #53, Alan Moore escreveu uma história fictícia de Gotham\nCity que outros escritores geralmente têm seguido. De acordo\ncom o conto de Moore, um mercenário norueguês fundou\nGotham City e os ingleses mais tarde assumiram o controle,\numa história que se assemelha muito com a fundação de Nova\nYork pelos holandeses (como Nova Amsterdã) e depois\ncontrolada pelos britânicos. Durante a Guerra da\nIndependência dos Estados Unidos, Gotham City foi o local\nde uma grande batalha (em paralelo com a Batalha do\nBrooklyn e a Batalha de Long Island na Guerra de Indepência\ndos Estados Unidos). Rumores de que ela era um local de\nvários rituais de ocultismo.\nNa série Batman Beyond, definida no futuro, Gotham City tem um visual futurista.\nNos filmes de Tim Burton, a cidade tem um aspecto sombrio e noir que se encaixa na estética gótica do"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 1,
+        "content": "Questão).\nO escritor Bill Finger comentou sobre o nome da\ncidade e do raciocínio para a mudança de localidade de\nBatman de Manhattan para uma cidade fictícia:\n\"Originalmente, eu ia chamar Gotham City de \"Civic\nCity\". Então eu tentei \"Capital City\", então \"Coast\nCity\". Então, eu folheava a lista telefônica e apareceu o\nnome de \"Gotham Jewelers e disse: 'é isso', Gotham\nCity. Nós não vamos chamá-la de Nova Iorque porque\nqueremos que qualquer pessoa em qualquer cidade se\nidentifique com ela\".[1] Gotham City havia sido um\napelido bem conhecido da cidade de Nova Iorque,\nmesmo antes de Batman #4,[2] o que explica o fato de\n\"Gotham Jewelers\" e muitas outras empresas em Nova\nYork, tem a palavra \"Gotham\" no nome.\nA primeira menção a uma cidade chamada Gotham nos\nQuadrinhos foi numa história do Mr. Scarlet da\nFawcett Comics, criada por France Herron e Jack\nKirby na revista Wow Comics #1, o historiador Greg\nTheakston observa que a história foi publicada no dia"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 4,
+        "content": "glória. Muito dos mais notórios criminosos de Gotham tiraram vantagem das superstições\nem torno do lugar para encobrir atividades ilícitas. O Beco do Crime, onde os pais de Bruce\nforam assassinados, está localizado no Bowery. Uma vez por ano, no aniversário da morte\ndeles, Batman patrulha o local, sozinho, e ataca qualquer pessoa que ouse cometer um\ncrime.\nGlendale – Era uma cidade independente até 1930, quando foi anexada a Gotham. Muitos\nresidentes de Glendale ainda acreditam que o bairro é uma entidade separada e chamam\nGotham de “a outra cidade”. O instituto de Tecnologia Glendale é um dos melhores do país.\nOs estudantes do Instituto têm rivalidade esportiva feroz, mas sem esperança, em relação\nà Universidade de Gotham.\nEvanstown – Ainda tem uma atmosfera de cidade pacata, com predominância de casas\nconstruídas em pequenos lotes e nenhum prédio com mais de 4 andares. O índice de\ncriminalidade é notadamente baixo, e o espírito de comunidade, intenso. Esse bairro tem 4"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 1,
+        "content": "Gotham City\nImagem interior do livro \"Batman: City of Crime\n(2005)\", mostrando a linha do horizonte de\nGotham City.\nInformações\nPrimeira aparição Batman #4\nCriado por Bob Kane e Bill\nFinger\nPublicado por DC Comics\nTipo Cidade\nPrincipais\nrepresentantes\nBruce Wayne\nSelina Kyle\nDick Grayson\nLance Bruner\nBarbara Gordon\nJason Todd\nTim Drake\nDamian Wayne\nAlfred Pennyworth\nJim Gordon\nCoringa\nAlan Scott\nRenee Montoya\nHarvey Dent\nLocais notáveis Mansão Wayne\nBatcaverna\nAsilo Arkham\nGotham City\nGotham City é uma cidade fictícia criada para as\nhistórias em quadrinhos (ou banda desenhada) da DC\nComics. Apresenta diversas semelhanças com grandes\ncidades do mundo onde existem altos índices de\ncriminalidade e corrupção. Vários super-heróis tiveram\naventuras nessa cidade, e seus três moradores mais\nfamosos são Bruce Wayne (Batman), Alan Scott (o\nLanterna Verde original) e Renee Montoya (a nova\nQuestão).\nO escritor Bill Finger comentou sobre o nome da"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 3,
+        "content": "Sempre que um autor novo escreve, cria uma situação, um personagem, um bairro novo e dá um elemento\na mais na cidade. Frank Miller criou um bairro na zona baixa, onde a prostituição, as drogas, violência e\nexploração são fatos cotidianos, como em todas as grandes cidades.\nGotham é uma cidade marcante pelo seu aspecto sombrio e cruel. Diferente de Metrópolis (a cidade do\nSuper-Homem), que é desenvolvida e pacífica, Gotham tem um aspecto obscuro e sombrio, altos índices\nde criminalidade e o perigo rondando em cada esquina.\nDevido aos hábitos noturnos de Batman, as aventuras ocorridas em Gotham se passam quase sempre à\nnoite.\nAbaixo os bairros de Gotham City:\nCentro Financeiro de Gotham – Incluídos no Centro Financeiro estão os maiores bancos da\ncidade e a Bolsa de Valores além de vários museus e da maioria dos teatros da cidade.\nMuitas emissoras de rádio e televisão têm suas torres de transmissão instaladas ali."
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.03,
+    "generation_seconds": 2.223,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 1.0,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.49999999995,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9001567706677204,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.06077255140096157,
+      "ROUGE-L": 0.3037974683544304,
+      "TokenF1": 0.5070422535211268,
+      "TokenPrecision": 0.4,
+      "TokenRecall": 0.6923076923076923
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ]
+      ],
+      "judge_feedback": "Feedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response accurately captures all the key information from the expected answer and the provided context: it mentions Bill Finger, the previous name attempts (Civic City, Capital City, Coast City), the source of the final name (Gotham Jewelers in the phone book), and the reasoning behind choosing a fictional city over New York."
+    }
+  },
+  {
+    "query_id": 9,
+    "user_query": "Quais são os três moradores mais famosos de Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bruce Wayne (Batman), Alan Scott (o Lanterna Verde original) e Renee Montoya (a nova Questão).",
+    "generated_answer": "Os três moradores mais famosos de Gotham City são Bruce Wayne (Batman), Alan Scott (o Lanterna Verde original) e Renee Montoya (a nova Questão).",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 2,
+        "content": "Esta imagem de Nova Iorque destaca\na inspiração real por trás de Gotham City,\nrefletindo a atmosfera urbana e sombria\nque define a cidade fictícia na história do\nBatman.\nng #53, Alan Moore escreveu uma história fictícia de Gotham\nCity que outros escritores geralmente têm seguido. De acordo\ncom o conto de Moore, um mercenário norueguês fundou\nGotham City e os ingleses mais tarde assumiram o controle,\numa história que se assemelha muito com a fundação de Nova\nYork pelos holandeses (como Nova Amsterdã) e depois\ncontrolada pelos britânicos. Durante a Guerra da\nIndependência dos Estados Unidos, Gotham City foi o local\nde uma grande batalha (em paralelo com a Batalha do\nBrooklyn e a Batalha de Long Island na Guerra de Indepência\ndos Estados Unidos). Rumores de que ela era um local de\nvários rituais de ocultismo.\nNa série Batman Beyond, definida no futuro, Gotham City tem um visual futurista.\nNos filmes de Tim Burton, a cidade tem um aspecto sombrio e noir que se encaixa na estética gótica do"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 4,
+        "content": "glória. Muito dos mais notórios criminosos de Gotham tiraram vantagem das superstições\nem torno do lugar para encobrir atividades ilícitas. O Beco do Crime, onde os pais de Bruce\nforam assassinados, está localizado no Bowery. Uma vez por ano, no aniversário da morte\ndeles, Batman patrulha o local, sozinho, e ataca qualquer pessoa que ouse cometer um\ncrime.\nGlendale – Era uma cidade independente até 1930, quando foi anexada a Gotham. Muitos\nresidentes de Glendale ainda acreditam que o bairro é uma entidade separada e chamam\nGotham de “a outra cidade”. O instituto de Tecnologia Glendale é um dos melhores do país.\nOs estudantes do Instituto têm rivalidade esportiva feroz, mas sem esperança, em relação\nà Universidade de Gotham.\nEvanstown – Ainda tem uma atmosfera de cidade pacata, com predominância de casas\nconstruídas em pequenos lotes e nenhum prédio com mais de 4 andares. O índice de\ncriminalidade é notadamente baixo, e o espírito de comunidade, intenso. Esse bairro tem 4"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 1,
+        "content": "Gotham City\nImagem interior do livro \"Batman: City of Crime\n(2005)\", mostrando a linha do horizonte de\nGotham City.\nInformações\nPrimeira aparição Batman #4\nCriado por Bob Kane e Bill\nFinger\nPublicado por DC Comics\nTipo Cidade\nPrincipais\nrepresentantes\nBruce Wayne\nSelina Kyle\nDick Grayson\nLance Bruner\nBarbara Gordon\nJason Todd\nTim Drake\nDamian Wayne\nAlfred Pennyworth\nJim Gordon\nCoringa\nAlan Scott\nRenee Montoya\nHarvey Dent\nLocais notáveis Mansão Wayne\nBatcaverna\nAsilo Arkham\nGotham City\nGotham City é uma cidade fictícia criada para as\nhistórias em quadrinhos (ou banda desenhada) da DC\nComics. Apresenta diversas semelhanças com grandes\ncidades do mundo onde existem altos índices de\ncriminalidade e corrupção. Vários super-heróis tiveram\naventuras nessa cidade, e seus três moradores mais\nfamosos são Bruce Wayne (Batman), Alan Scott (o\nLanterna Verde original) e Renee Montoya (a nova\nQuestão).\nO escritor Bill Finger comentou sobre o nome da"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 1,
+        "content": "Questão).\nO escritor Bill Finger comentou sobre o nome da\ncidade e do raciocínio para a mudança de localidade de\nBatman de Manhattan para uma cidade fictícia:\n\"Originalmente, eu ia chamar Gotham City de \"Civic\nCity\". Então eu tentei \"Capital City\", então \"Coast\nCity\". Então, eu folheava a lista telefônica e apareceu o\nnome de \"Gotham Jewelers e disse: 'é isso', Gotham\nCity. Nós não vamos chamá-la de Nova Iorque porque\nqueremos que qualquer pessoa em qualquer cidade se\nidentifique com ela\".[1] Gotham City havia sido um\napelido bem conhecido da cidade de Nova Iorque,\nmesmo antes de Batman #4,[2] o que explica o fato de\n\"Gotham Jewelers\" e muitas outras empresas em Nova\nYork, tem a palavra \"Gotham\" no nome.\nA primeira menção a uma cidade chamada Gotham nos\nQuadrinhos foi numa história do Mr. Scarlet da\nFawcett Comics, criada por France Herron e Jack\nKirby na revista Wow Comics #1, o historiador Greg\nTheakston observa que a história foi publicada no dia"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 32,
+        "content": "giao-dos-super-herois-saiba-em-que-creem-10-personagens-dos-quadrinhos/)\n39. Ayala, Vita; Russell, Mark (9 de junho de 2022). Batman: Urban Legends Vol. 3 (https://book\ns.google.com/books?id=fuuAEAAAQBAJ) (em inglês). [S.l.]: DC Comics. ISBN 978-1-\n77951-916-0. Cópia arquivada em 14 de janeiro de 2026 (http://web.archive.org/web/20260\n114111253/https://books.google.com/books?id=fuuAEAAAQBAJ)\n40. Allan, Scoot; Harth, David (1 de dezembro de 2020). «Batman: All of Bruce Wayne's major\nlove interests (in chronological order)» (https://www.cbr.com/batman-bruce-wayne-major-lov\ne-interests-chronological-order/). CBR (em inglês). Consultado em 10 de junho de 2024.\nCópia arquivada em 17 de fevereiro de 2026 (http://web.archive.org/web/20260217120554/h\nttps://www.cbr.com/batman-bruce-wayne-major-love-interests-chronological-order/)"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.048,
+    "generation_seconds": 1.198,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.3333333333,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.996817336235961,
+      "JudgeRating": 5.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.7044371001527127,
+      "ROUGE-L": 0.7441860465116279,
+      "TokenF1": 0.7647058823529412,
+      "TokenPrecision": 0.6190476190476191,
+      "TokenRecall": 1.0
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        [
+          "doc_2"
+        ],
+        []
+      ],
+      "judge_feedback": "The answer provides three residents of Gotham City, but the selection is highly questionable in terms of \"fame.\" While Bruce Wayne is the most famous, Alan Scott and Renee Montoya are significantly less iconic and well-known to the general public compared to characters like The Joker, Catwoman, Penguin, or Commissioner Gordon. The answer is technically correct (they are residents), but it fails to identify the *most* famous ones.\n\nFeedback:::\nTotal rating: 5.0",
+      "correctness_reason": "The model response exactly matches the information provided in the context and the expected answer, correctly identifying the three most famous residents of Gotham City."
+    }
+  },
+  {
+    "query_id": 10,
+    "user_query": "De onde foi retirado o nome do Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O nome foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita nos contos de H.P. Lovecraft.",
+    "generated_answer": "O nome do Asilo Arkham foi inspirado pela cidade fictícia de Arkham, Massachusetts, descrita nos contos de terror e ficção científica de H.P. Lovecraft.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "de Belle Reve), Ra's Al Ghul e Hugo Strange.\nO nome Arkham Asylum foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita\nem muitos dos contos de terror e de ficção científica de H.P. Lovecraft, com o primeiro a ser \"The\nUnnamable\" (1923).[2] O Asilo apareceu pela primeira vez em Batman #258 (Outubro de 1974), escrito\npor Dennis O'Neil com desenhos de Irv Novick. Nessa história o Asilo é descrito como \"Hospital\nArkham\", embora não tenha ficado claro na época que tipo de hospital era. A descrição \"Asilo Arkham\"\napareceu pela primeira vez no ano seguinte, noutra história de O'Neil, porém só em 1979 o nome \"Asilo\nArkham\" substituiu em definitivo \"Hospital Arkham\" (e o ocasional \"Sanatório Arkham\"), como o nome\nda instituição.\nInspirado por trabalhos de H.P. Lovecraft, o asilo foi criado pelo escritor Dennis O'Neil, com primeira\naparição em Batman #258 (Outubro 1974); muito de sua história foi criada por Len Wein durante os anos\n1980.[3]"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "Asilo Arkham\nInformações\nPrimeira\naparição\nBatman #258 (Outubro de\n1974)\nCriado por Dennis O'Neil\nIrv Novick\nPublicado por DC Comics\nTipo Asilo para os (criminosos)\ninsanos\nAsilo Arkham\nO Asilo Elizabeth Arkham para os Criminalmente\nInsanos (Elizabeth Arkham Asylum for the\nCriminally Insane),[1] frequentemente referido como\nArkham Asylum, ou simplesmente Arkham, é um\nhospital psiquiátrico fictício presente nas histórias de\nbanda desenhada americanas publicadas pela DC\nComics, mais frequentemente nas séries do super-herói\nBatman. Muitos criminosos psicóticos do Universo DC\njá foram internados em Arkham, a maioria deles\npertencentes ao universo Batman; como o Coringa,\nPinguim, Hera Venenosa, Charada, Duas-Caras,\nSenhor Frio, Espantalho, Bane, Crocodilo, Arlequina\n(como psíquiatra e internada ocasionalmente, por conta de ser incarcerada regularmente no penitenciário\nde Belle Reve), Ra's Al Ghul e Hugo Strange."
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "1980.[3]\nNo universo ficcional das histórias de Batman, o asilo foi fundado pelo psiquiatra Amadeus Arkham em\nhonra de sua finada mãe, Elizabeth Arkham. Antes de abrir o asilo, em 1 de abril de 1921, a esposa e filha\nde Amadeus foram estupradas e mutiladas por Martin \"Mad Dog\" Hawkins, um criminoso insano.\nQuando o asilo abriu suas portas, Hawkins foi um dos primeiros internos.[4] O doutor Arkham cuidou\ndele por 6 meses, porém o eletrocutou no aniversário do assassinato de sua família, em 1922. No fim, o\npróprio Amadeus se tornou insano e foi internado, morrendo no asilo.[4] Jeremiah Arkham é o neto de\nCriação\nOrigem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 3,
+        "content": "Kartheiser)\nEm 2009, o Asilo Arkham foi o tema príncipal do novo jogo lançado para Xbox 360, PlayStation 3 e PC\nintitulado Batman: Arkham Asylum, onde o jogador guia o super-herói em busca do líder de uma rebelião,\njustamente o Coringa. O jogo ganhou continuações : Batman: Arkham City, Batman: Arkham Origins e\nBatman: Arkham Knight.[6]\n1. Grant Morrison, Dave McKean & Gaspar Saladino (1989). Arkham Asylum: A Serious House\non Serious Earth. [S.l.]: DC Comics\n2. Lovecraft, H.P (2010). The Best of H.P Lovecraft. [S.l.]: Carlton Books. p. 8. ISBN 978-1-\n85375-881-2\n3. DUNCAN, Randy, e SMITH, Matthew J. Icons of the American Comic Book: From Captain\nAmerica to Wonder Woman, Volume 1 (http://books.google.com.br/books?id=M_bRZ_et8BI\nC&dq). ABC-CLIO, 2013. P. 38 (em inglês)\n4. «Arkham Asylum». Eaglemoss. Masterprice Collection - Batman 75th Aniniversary: 22-23.\n2014\n5. Grant Morrison: From the Asylum to the Star (http://sequart.org/magazine/602/grant-morriso"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_12",
+        "source": "pdffiles\\wiki_charada.pdf",
+        "page": 3,
+        "content": "6. «Batman: Arkham Asylum» (https://web.archive.org/web/20121125142238/http://www.behind\nthevoiceactors.com/video-games/Batman-Arkham-Asylum/side-by-side/). Behind the Voice\nActors. Consultado em 26 de janeiro de 2020. Arquivado do original (http://www.behindthevo\niceactors.com/video-games/Batman-Arkham-Asylum/side-by-side/) em 25 de novembro de\n2012\n«Batman: Arkham City» (http://www.behindthevoiceactors.com/video-games/Batman-Ark\nham-City/side-by-side/). Behind the Voice Actors. Consultado em 26 de janeiro de 2020\nClow, Chris (31 de outubro de 2013). «Game Review - Batman: Arkham Origins, Plus\nCollector's Edition Extras» (https://web.archive.org/web/20131102145745/http://geeknati\non.com/game-review-batman-arkham-origins-plus-collectors-edition-extras/).\nGeekNation. Consultado em 26 de janeiro de 2020. Arquivado do original (http://geeknati\non.com/game-review-batman-arkham-origins-plus-collectors-edition-extras/) em 2 de\nnovembro de 2013"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.02,
+    "generation_seconds": 1.329,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.8,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9131408345305809,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.4933292241270432,
+      "ROUGE-L": 0.6530612244897959,
+      "TokenF1": 0.7142857142857143,
+      "TokenPrecision": 0.625,
+      "TokenRecall": 0.8333333333333334
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        []
+      ],
+      "judge_feedback": "Feedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response accurately identifies that the name was inspired by the fictional city of Arkham, Massachusetts, and mentions H.P. Lovecraft's stories, which aligns perfectly with the expected answer and the provided context."
+    }
+  },
+  {
+    "query_id": 11,
+    "user_query": "Em que revista apareceu pela primeira vez o Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "Em Batman #258, de outubro de 1974, escrita por Dennis O'Neil com desenhos de Irv Novick.",
+    "generated_answer": "O Asilo Arkham apareceu pela primeira vez em Batman #258 (Outubro de 1974), escrita por Dennis O'Neil.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "Asilo Arkham\nInformações\nPrimeira\naparição\nBatman #258 (Outubro de\n1974)\nCriado por Dennis O'Neil\nIrv Novick\nPublicado por DC Comics\nTipo Asilo para os (criminosos)\ninsanos\nAsilo Arkham\nO Asilo Elizabeth Arkham para os Criminalmente\nInsanos (Elizabeth Arkham Asylum for the\nCriminally Insane),[1] frequentemente referido como\nArkham Asylum, ou simplesmente Arkham, é um\nhospital psiquiátrico fictício presente nas histórias de\nbanda desenhada americanas publicadas pela DC\nComics, mais frequentemente nas séries do super-herói\nBatman. Muitos criminosos psicóticos do Universo DC\njá foram internados em Arkham, a maioria deles\npertencentes ao universo Batman; como o Coringa,\nPinguim, Hera Venenosa, Charada, Duas-Caras,\nSenhor Frio, Espantalho, Bane, Crocodilo, Arlequina\n(como psíquiatra e internada ocasionalmente, por conta de ser incarcerada regularmente no penitenciário\nde Belle Reve), Ra's Al Ghul e Hugo Strange."
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "de Belle Reve), Ra's Al Ghul e Hugo Strange.\nO nome Arkham Asylum foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita\nem muitos dos contos de terror e de ficção científica de H.P. Lovecraft, com o primeiro a ser \"The\nUnnamable\" (1923).[2] O Asilo apareceu pela primeira vez em Batman #258 (Outubro de 1974), escrito\npor Dennis O'Neil com desenhos de Irv Novick. Nessa história o Asilo é descrito como \"Hospital\nArkham\", embora não tenha ficado claro na época que tipo de hospital era. A descrição \"Asilo Arkham\"\napareceu pela primeira vez no ano seguinte, noutra história de O'Neil, porém só em 1979 o nome \"Asilo\nArkham\" substituiu em definitivo \"Hospital Arkham\" (e o ocasional \"Sanatório Arkham\"), como o nome\nda instituição.\nInspirado por trabalhos de H.P. Lovecraft, o asilo foi criado pelo escritor Dennis O'Neil, com primeira\naparição em Batman #258 (Outubro 1974); muito de sua história foi criada por Len Wein durante os anos\n1980.[3]"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 1,
+        "content": "1980.[3]\nNo universo ficcional das histórias de Batman, o asilo foi fundado pelo psiquiatra Amadeus Arkham em\nhonra de sua finada mãe, Elizabeth Arkham. Antes de abrir o asilo, em 1 de abril de 1921, a esposa e filha\nde Amadeus foram estupradas e mutiladas por Martin \"Mad Dog\" Hawkins, um criminoso insano.\nQuando o asilo abriu suas portas, Hawkins foi um dos primeiros internos.[4] O doutor Arkham cuidou\ndele por 6 meses, porém o eletrocutou no aniversário do assassinato de sua família, em 1922. No fim, o\npróprio Amadeus se tornou insano e foi internado, morrendo no asilo.[4] Jeremiah Arkham é o neto de\nCriação\nOrigem"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 3,
+        "content": "Kartheiser)\nEm 2009, o Asilo Arkham foi o tema príncipal do novo jogo lançado para Xbox 360, PlayStation 3 e PC\nintitulado Batman: Arkham Asylum, onde o jogador guia o super-herói em busca do líder de uma rebelião,\njustamente o Coringa. O jogo ganhou continuações : Batman: Arkham City, Batman: Arkham Origins e\nBatman: Arkham Knight.[6]\n1. Grant Morrison, Dave McKean & Gaspar Saladino (1989). Arkham Asylum: A Serious House\non Serious Earth. [S.l.]: DC Comics\n2. Lovecraft, H.P (2010). The Best of H.P Lovecraft. [S.l.]: Carlton Books. p. 8. ISBN 978-1-\n85375-881-2\n3. DUNCAN, Randy, e SMITH, Matthew J. Icons of the American Comic Book: From Captain\nAmerica to Wonder Woman, Volume 1 (http://books.google.com.br/books?id=M_bRZ_et8BI\nC&dq). ABC-CLIO, 2013. P. 38 (em inglês)\n4. «Arkham Asylum». Eaglemoss. Masterprice Collection - Batman 75th Aniniversary: 22-23.\n2014\n5. Grant Morrison: From the Asylum to the Star (http://sequart.org/magazine/602/grant-morriso"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_3",
+        "source": "pdffiles\\wiki_asilo_arkham.pdf",
+        "page": 2,
+        "content": "Dumpty\". Também, nos anos 1940, estavam o interno que esculpiu uma antiga lâmpada de trem a partir\nduma antiga lâmpada chinesa, dando origem a Lanterna de Alan Scott, o primeiro Lanterna Verde.\nAsilo Arkham também é o título de uma graphic novel de 1989, escrita por Grant Morrison e ilustrada por\nDave McKean. Lançado originalmente no Brasil em 1990, Asilo Arkham é considerado um dos títulos\nmais lidos e comentados na história dos quadrinhos. A história soa como um golpe de misericórdia na\nmoral do Batman. Os internos do Asilo Arkham - incluindo Coringa e demais inimigos do Batman,\ntomam conta do asilo e exigem a presença do herói, que é conduzido numa jornada de tortura física e\npsicológica pelos vilões.[5]\nSeguindo a mesma linha de Piada Mortal (de Alan Moore e Brian Bolland) e Justiça Cega (de Sam\nHamm), Asilo Arkham mostra os pontos mais fracos do justiceiro de Gotham City. Grant Morrison mostra"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.024,
+    "generation_seconds": 1.23,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 1.0,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 1.0,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.99999999995,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.8009895203380198,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.24338218459022268,
+      "ROUGE-L": 0.6285714285714287,
+      "TokenF1": 0.625,
+      "TokenPrecision": 0.625,
+      "TokenRecall": 0.625
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ],
+        [
+          "doc_3"
+        ]
+      ],
+      "judge_feedback": "The user asked which *magazine* (revista) the Arkham Asylum first appeared in. The system answer correctly identifies the specific comic book issue (Batman #258) and the date.\n\nFeedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response correctly identifies the publication (Batman #258), the date (October 1974), and the writer (Dennis O'Neil), which matches the key information provided in the expected answer and the context."
+    }
+  },
+  {
+    "query_id": 12,
+    "user_query": "Onde fica a Batcaverna?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "A Batcaverna fica numa gruta abaixo dos alicerces da Mansão Wayne.",
+    "generated_answer": "A Batcaverna fica abaixo da Mansão Wayne, em Gotham.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_4",
+        "source": "pdffiles\\wiki_batcaverna.pdf",
+        "page": 1,
+        "content": "Batcaverna\nInformações\nPublicado por DC Comics\nTipo Base de Operações\nBatcaverna\nBatcaverna é um local fictício dos quadrinhos da DC\nComics, que serve como quartel-general para o\nBatman (a identidade heroica do Bruce Wayne)\nlocalizada em uma gruta abaixo dos alicerces da\nMansão Wayne. Atualmente ela serve como base de\noperações para a Liga Secreta, a nova Liga da\nJustiça[1][2]\nA caverna foi descoberta e usada durante muito tempo pelos antepassados   de Bruce Wayne como\narmazém, bem como meio de transporte de escravos fugitivos durante a era Guerra Civil. O herói\nTomahawk, no final do século XVIII, uma vez descobriu um morcego gigantesco (de propriedade de\nMorgana le Fey da lenda do rei Artur) dentro do que pode ser assumido para ser a Batcaverna.[3] Wayne\nredescobriu as cavernas quando criança, quando ele caiu através de um dilapidado bem em sua\npropriedade, mas ele não considerou a caverna como uma base potencial de operações, até que ele a"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 5,
+        "content": "Mansão Wayne – em inglês \"Wayne Manor\", é a residência pessoal de Bruce Wayne.[4]\nAbaixo dela, se encontra a Batcaverna[4], que em muitas histórias tem como entrada um\nPontos turísticos e outros"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_4",
+        "source": "pdffiles\\wiki_batcaverna.pdf",
+        "page": 1,
+        "content": "propriedade, mas ele não considerou a caverna como uma base potencial de operações, até que ele a\nredescobriu quando ele retornou à Gotham para se tornar o Batman. Além de uma base, a Batcaverna\nserve como um lugar de privacidade e tranquilidade, bem como a Fortaleza da Solidão do Superman.\n1. Scott Beatty (2008). The DC Comics Encyclopedia. Londres: Dorling Kindersley. pp. 40–44.\n0-7566-4119-5\n2. Jimenez, Phil (2008). Dougall, Alastair, ed. The DC Comics Encyclopedia (em inglês). Nova\nIorque: Dorling Kindersley. ISBN 0-7566-4119-5. OCLC 213309017 (https://www.worldcat.or\ng/oclc/213309017)\n3. \"Swamp Thing Annotations: #86\" (http://www.angelfire.com/pop/bay55/SwampThing/Swamp\nBook086.html) 14:1\nObtida de \"https://pt.wikipedia.org/w/index.php?title=Batcaverna&oldid=67281371\"\nHistórico\nReferências"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 33,
+        "content": "-on-film.com/2103/onstar-batman/). BATMAN ON FILM (em inglês). Consultado em 16 de\ndezembro de 2019. Cópia arquivada em 7 de junho de 2026 (http://web.archive.org/web/202\n60607170748/https://batman-on-film.com/2103/onstar-batman/)\n54. «The BatPodcast - BatPodcast Episode 6- Bruce Thomas on Stitcher» (https://www.stitcher.\ncom/show/the-batpodcast/episode/batpodcast-episode-6-bruce-thomas-35611696). Stitcher.\nConsultado em 14 de agosto de 2021. Cópia arquivada em 6 de abril de 2023 (http://web.ar\nchive.org/web/20230406183943/https://www.stitcher.com/show/the-batpodcast/episode/batp\nodcast-episode-6-bruce-thomas-35611696)\n55. «Titans | Brenton Thwaites fala sobre a escolha de Iain Glen como Bruce Wayne» (https://w\nww.jornadageek.com.br/novidades/titans-comentario-iain-glen-como-batman/). 18 de maio\nde 2019. Consultado em 14 de agosto de 2021. Cópia arquivada em 11 de abril de 2021 (htt\np://web.archive.org/web/20210411065650/https://www.jornadageek.com.br/novidades/titans-"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_2",
+        "source": "pdffiles\\wiki_gotham_city.pdf",
+        "page": 4,
+        "content": "glória. Muito dos mais notórios criminosos de Gotham tiraram vantagem das superstições\nem torno do lugar para encobrir atividades ilícitas. O Beco do Crime, onde os pais de Bruce\nforam assassinados, está localizado no Bowery. Uma vez por ano, no aniversário da morte\ndeles, Batman patrulha o local, sozinho, e ataca qualquer pessoa que ouse cometer um\ncrime.\nGlendale – Era uma cidade independente até 1930, quando foi anexada a Gotham. Muitos\nresidentes de Glendale ainda acreditam que o bairro é uma entidade separada e chamam\nGotham de “a outra cidade”. O instituto de Tecnologia Glendale é um dos melhores do país.\nOs estudantes do Instituto têm rivalidade esportiva feroz, mas sem esperança, em relação\nà Universidade de Gotham.\nEvanstown – Ainda tem uma atmosfera de cidade pacata, com predominância de casas\nconstruídas em pequenos lotes e nenhum prédio com mais de 4 andares. O índice de\ncriminalidade é notadamente baixo, e o espírito de comunidade, intenso. Esse bairro tem 4"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.039,
+    "generation_seconds": 0.729,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 0.6666666666666666,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.4,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.99999999995,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9999999999998742,
+      "JudgeRating": 10.0,
+      "JudgeScore": 9.0,
+      "Correctness": 1.0,
+      "BLEU": 0.23021036988792518,
+      "ROUGE-L": 0.7272727272727272,
+      "TokenF1": 0.6666666666666665,
+      "TokenPrecision": 0.75,
+      "TokenRecall": 0.6
+    },
+    "details": {
+      "relevance": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_4"
+        ],
+        [],
+        [
+          "doc_4"
+        ],
+        [],
+        []
+      ],
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response correctly identifies that the Batcave is located below Wayne Manor, which matches the key information in the expected answer and the provided context. While it adds 'in Gotham', this is factually consistent with the context provided."
+    }
+  },
+  {
+    "query_id": 13,
+    "user_query": "Como é que Bruce Wayne descobriu as cavernas quando era criança?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "Bruce Wayne descobriu as cavernas quando caiu através de um poço dilapidado na sua propriedade.",
+    "generated_answer": "Bruce Wayne descobriu as cavernas quando criança após cair através de um dilapidado bem em sua propriedade.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_4",
+        "source": "pdffiles\\wiki_batcaverna.pdf",
+        "page": 1,
+        "content": "propriedade, mas ele não considerou a caverna como uma base potencial de operações, até que ele a\nredescobriu quando ele retornou à Gotham para se tornar o Batman. Além de uma base, a Batcaverna\nserve como um lugar de privacidade e tranquilidade, bem como a Fortaleza da Solidão do Superman.\n1. Scott Beatty (2008). The DC Comics Encyclopedia. Londres: Dorling Kindersley. pp. 40–44.\n0-7566-4119-5\n2. Jimenez, Phil (2008). Dougall, Alastair, ed. The DC Comics Encyclopedia (em inglês). Nova\nIorque: Dorling Kindersley. ISBN 0-7566-4119-5. OCLC 213309017 (https://www.worldcat.or\ng/oclc/213309017)\n3. \"Swamp Thing Annotations: #86\" (http://www.angelfire.com/pop/bay55/SwampThing/Swamp\nBook086.html) 14:1\nObtida de \"https://pt.wikipedia.org/w/index.php?title=Batcaverna&oldid=67281371\"\nHistórico\nReferências"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 21,
+        "content": "Wayne Júnior era o irmão mais novo de Bruce Wayne que ainda em gestação sofreu um acidente. O que o\nfez nascer prematuro e em estado vegetativo. Thomas e Martha Wayne esconderam o seu filho ô\nescondendo em um orfanato. Após a morte deles, Júnior acordou de seu estado vegetativo aos 12 anos e\nencontrou o orfanato abandonado, Júnior é levado pela Corte das Corujas (uma sociedade secreta que\nregia Gotham desde o Século XIX). Júnior aprende com a Corte artes marciais e a verdade sobre quem\nele é e sua família. Ao chegar à vida adulta Júnior assume a identidade do político Lincoln March e se\ntorna próximo de Bruce Wayne e até descobre sua identidade secreta de Batman. Júnior e Bruce se\nencontram no orfanato onde ele cresceu e lá revela quem ele é para seu irmão. Júnior veste uma armadura\nque lembra uma Coruja e enfrenta Batman. Após uma batalha fulminante, Batman sai vitorioso e Júnior é\ndado como morto após a explosão de um prédio e seu corpo não ser encontrado."
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_4",
+        "source": "pdffiles\\wiki_batcaverna.pdf",
+        "page": 1,
+        "content": "Batcaverna\nInformações\nPublicado por DC Comics\nTipo Base de Operações\nBatcaverna\nBatcaverna é um local fictício dos quadrinhos da DC\nComics, que serve como quartel-general para o\nBatman (a identidade heroica do Bruce Wayne)\nlocalizada em uma gruta abaixo dos alicerces da\nMansão Wayne. Atualmente ela serve como base de\noperações para a Liga Secreta, a nova Liga da\nJustiça[1][2]\nA caverna foi descoberta e usada durante muito tempo pelos antepassados   de Bruce Wayne como\narmazém, bem como meio de transporte de escravos fugitivos durante a era Guerra Civil. O herói\nTomahawk, no final do século XVIII, uma vez descobriu um morcego gigantesco (de propriedade de\nMorgana le Fey da lenda do rei Artur) dentro do que pode ser assumido para ser a Batcaverna.[3] Wayne\nredescobriu as cavernas quando criança, quando ele caiu através de um dilapidado bem em sua\npropriedade, mas ele não considerou a caverna como uma base potencial de operações, até que ele a"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 15,
+        "content": "pessoas tornem-se criminosas. Essa personalidade de Bruce Wayne foi inventada por ele para evitar que\nalguém desconfiasse de seu alter-ego, às vezes fingindo-se bobo e egoísta para que ninguém o descubra.\nBruce Wayne deixou claro que considera manter sua identidade secreta prioridade máxima, chegando a\nCorporação Batman\nPersonalidade\nBruce Wayne"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 12,
+        "content": "mas quase foi preso e morto. De volta à sua mansão, Bruce viu um morcego atravessar a janela e isto lhe\ndeu a inspiração de que precisaria imprimir medo nos criminosos, aparentando ser um ser sobrenatural,\ncomo um Homem Morcego (Batman significa literalmente Homem Morcego). Assim Bruce escavou a\ncaverna abaixo de sua mansão, criando seu quartel general secreto, a bat-caverna; desviou dinheiro e\ntecnologia de suas empresas e fortuna para montar um arsenal de armas e veículos. Criou seu uniforme de\nmorcego, passando a agir como vigilante noturno com aparência sobrenatural e demoníaca, mesclado a\nescuridão. Só Alfred e Leslie sabiam de seu segredo, sendo que Alfred aceitou, a contra gosto, ser seu\nauxiliar, enquanto Leslie nunca aceitou isso. Nesta versão, Bruce se importa com sua vida como vigilante,\nnão sentindo prazeres ou aproveitando a vida como playboy Milionário. Na verdade, apenas cultiva essa"
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.054,
+    "generation_seconds": 1.083,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 0.6666666666666666,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.4,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.3333333333,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9366279148436273,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.41151097720309293,
+      "ROUGE-L": 0.7027027027027027,
+      "TokenF1": 0.7142857142857142,
+      "TokenPrecision": 0.6666666666666666,
+      "TokenRecall": 0.7692307692307693
+    },
+    "details": {
+      "relevance": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "hit_ids": [
+        [
+          "doc_4"
+        ],
+        [],
+        [
+          "doc_4"
+        ],
+        [],
+        []
+      ],
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response accurately reflects the information provided in the context and matches the expected answer, stating that Bruce Wayne discovered the caves as a child after falling through a dilapidated well on his property."
+    }
+  },
+  {
+    "query_id": 14,
+    "user_query": "Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi vendido por 3,47 milhões de euros num leilão em Scottsdale, no Arizona, a 19 de janeiro de 2013.",
+    "generated_answer": "O Batmóvel da série de televisão dos anos sessenta foi vendido por 3,47 milhões de euros num leilão em Scottsdale, no Arizona, em 19 de Janeiro de 2013.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 1,
+        "content": "veículos mais modernos e famosos da mídia.[1]\nO batmobile, o carro utilizado por “Batman” na série\nde televisão norte-americana dos anos sessenta, foi\nvendido por 3,47 milhões de euros num leilão em\nScottsdale, no Estado do Arizona, no 19 de Janeiro de\n2013 e foi utilizado na primeira série de televisão,\nentre 1966 e 1968, sendo construído por Georges\nBarris (1925-2015) a partir de um Lincoln Futura\ncomprado em 1955 num ferro-velho por apenas um\ndólar[2].\nNa \"Trilogia Batman\", dirigida por Christopher Nolan,\no super-herói morcego (interpretado por Christian\nBale) pilota novos modelos de Batmóveis de alta\ntecnologia, similares a tanques de guerra.\nO primeiro Batmóvel utilizado para a promover o\nHomem-Morcego no leste dos EUA, é um Oldsmobile\n88 modelo 1956, customizada por Forrest Robinson e\nLen Perham, em 1963, para uso particular Robinson.\nAo tomar conhecimento do sucesso que este carro"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_14",
+        "source": "pdffiles\\wiki_mulher_gato.pdf",
+        "page": 7,
+        "content": "teve no elenco Sharon Stone e Frances Conroy. Infelizmente, o\nlonga não foi bem recebido, tanto pela crítica especializada como\npelo público, tendo arrecadado apenas cerca de US$80 milhões em todo o mundo (apesar de ter tido o\norçamento de mais de US$100 milhões)[16].\nCinema\nBatman, o Homem-Morcego\nBatman: O Retorno\nBatman: Eternamente\nMulher-Gato"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 26,
+        "content": "Em 1966, foi produzido o telefilme Batman, O Homem Morcego, como forma de promover a série de TV\nque iria estrear. Tanto o filme, quanto a série, foram estreladas por Adam West, no papel de Bruce Wayne\n/ Batman.\nEsse, foi o único filme do Morcego entre as décadas de 1950 e 1980. E, apesar dele ser um longa-\nmetragem, a única exibição desse filme nos cinemas, aconteceu em 30 de junho de 1966, justamente na\nsua estreia, quando ele foi exibido para um público selecionado, no tradicional Paramounth Theatrer, em\nAustin, no Texas. As demais exibições, se deram apenas na TV.\nAdam West se tornou, na época, o único ator a interpretar Batman em série de TV e longa-metragem, em\nlive-action.\nEra Burton (1989 - 1992)\nA partir de 1989, diversos filmes do personagem foram feitos: Tim Burton dirigiu os aclamados Batman\n(1989) e Batman Returns (1992), que teve Michael Keaton no papel do herói nos dois filmes.\nO sucesso dos filmes de Burton, fizeram com que a produção desse início a mais um filme."
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 2,
+        "content": "Batmóvel da década\nde 1960.\n \nBatmóvel (ou Tumbler)\nde Batman Begins e\nThe Dark Knight.\n \n3 Batmóveis (ou\nTumblers) de The Dark\nKnight Rises.\n1. Jimenez, Phil (2008). The DC Comics Encyclopedia. [S.l.]: Dorling Kindersley. p. 34-35.\nISBN 0-7566-4119-5\n2. Sol (21 de janeiro de 2013). «Batmobile vendido por mais de 3 milhões de euros» (http://sol.\nsapo.ao/inicio/Vida/Interior.aspx?content_id=66712). Consultado em 25 de setembro de\n2014\n3. Desconhecido, primeiro Batmóvel oficial será leiloado em dezembro - Vendido nos anos 60\npor US$ 200 mil, carro usado para promover o Homem-Morcego nos EUA vai a leilão (http://\ndeles.ig.com.br/auto/2014-11-19/primeiro-batmovel-da-historia-vai-a-leilao-nos-eua.html)\nPortal IG - acessado em 20 de novembro de 2014\n4. +Motores (14 de agosto de 2014). «Lego oferece Tumbler, o carro do Batman» (http://www.\nmaismotores.net/2014/08/lego-oferece-tumbler-o-carro-do-batman/). Consultado em 25 de\nsetembro de 2014"
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 1,
+        "content": "Len Perham, em 1963, para uso particular Robinson.\nAo tomar conhecimento do sucesso que este carro\nfazia, a empresa Green Acres Ice Cream, ligada à DC Comics, alugou o veículo para divulgar a revista,\nutilizando-o para este fim, até 1966. Após a devolução, Robinson vendeu o veículo pelo valor de US$\n200.000,00[3]."
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.024,
+    "generation_seconds": 1.508,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 0.3333333333333333,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.6,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.943945278966838,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.48982693278693806,
+      "ROUGE-L": 0.75,
+      "TokenF1": 0.8085106382978724,
+      "TokenPrecision": 0.6785714285714286,
+      "TokenRecall": 1.0
+    },
+    "details": {
+      "relevance": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_5"
+        ],
+        [],
+        [],
+        [
+          "doc_5"
+        ],
+        [
+          "doc_5"
+        ]
+      ],
+      "judge_feedback": "Feedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response accurately provides the sale price (3.47 million euros), the location (Scottsdale, Arizona), and the date (January 19, 2013), which perfectly matches the information provided in the context and the expected answer."
+    }
+  },
+  {
+    "query_id": 15,
+    "user_query": "A partir de que carro foi construído o Batmóvel da série de televisão de 1966?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi construído por George Barris a partir de um Lincoln Futura.",
+    "generated_answer": "O Batmóvel da série de televisão de 1966 foi construído a partir de um Lincoln Futura comprado em 1955 num ferro-velho por apenas um dólar.",
+    "retrieved": [
+      {
+        "rank": 1,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 1,
+        "content": "veículos mais modernos e famosos da mídia.[1]\nO batmobile, o carro utilizado por “Batman” na série\nde televisão norte-americana dos anos sessenta, foi\nvendido por 3,47 milhões de euros num leilão em\nScottsdale, no Estado do Arizona, no 19 de Janeiro de\n2013 e foi utilizado na primeira série de televisão,\nentre 1966 e 1968, sendo construído por Georges\nBarris (1925-2015) a partir de um Lincoln Futura\ncomprado em 1955 num ferro-velho por apenas um\ndólar[2].\nNa \"Trilogia Batman\", dirigida por Christopher Nolan,\no super-herói morcego (interpretado por Christian\nBale) pilota novos modelos de Batmóveis de alta\ntecnologia, similares a tanques de guerra.\nO primeiro Batmóvel utilizado para a promover o\nHomem-Morcego no leste dos EUA, é um Oldsmobile\n88 modelo 1956, customizada por Forrest Robinson e\nLen Perham, em 1963, para uso particular Robinson.\nAo tomar conhecimento do sucesso que este carro"
+      },
+      {
+        "rank": 2,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 2,
+        "content": "Diversos fabricantes optaram por fabricar pequenas réplicas dos diversos Batmobiles ao longo dos\ntempos.\nA Lego produziu uma versão do Batmóvel mais recente, o Tumbler. Ao todo este conjunto\npara ser construído conta com mais de 1869 pequenas peças de plástico.[4]\nA Hot Wheels lançou uma versão baseada no modelo da década de 1960, assim como os\nmodelos de Batman e Batman Returns.\nCorgi Toys produziu uma gama alargada de Batmobiles desde o 'sedan' original até aos\nmais recentes Batmobiles dos últimos filmes. A Corgi produziu ainda o Batboat, o Red Bird\n& Jokermobile.\nMego produziu o Batmobile para a sua gama World's Greatest Super Hero nos anos 70. No\ninterior destes pequenos modelos era possível sentar dois bonecos.\nO Batmobile produzido pela Kenner's na sua coleção Super Powers Collection \nA editora Eaglemoss lançou uma revista 'Batman Automobilia' em que dá grande destaque\na todos os modelos de Batmobiles ao longo dos tempos.\nBatmóvel da década\nde 1960.\n \nBatmóvel (ou Tumbler)"
+      },
+      {
+        "rank": 3,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 21,
+        "content": "Cobblepot, o Pinguim; o terrível Edward \"Nygma\" Nashton, o Charada; o ex-promotor Harvey Dent,\nconhecido como Duas-Caras; o Chapeleiro Louco (Jervis Tetch) e o Espantalho (Jonathan Crane), o\nsenhor do medo. Também na mesma década, temos o Mago, este mais conhecido pela série de 1949.\nNas décadas de 1950 a 1970, temos o surgimento de Victor Fries, o Senhor Frio, Hera Venenosa (Dra.\nPamela Lillian Isley), Kobra, Vatele da Gangue Royal Flush e Ra's al Ghul, um dos maiores vilões que o\nBatman já enfrentou e recentemente voltou a evidência em razão do êxito do filme Batman Begins.\nTambém foi nessa época que Batman conheceu o Homem-Coruja (Thomas Wayne Jr.), uma versão\nmaléfica de si mesmo que veio do Universo de Antimatéria, membro do Sindicato do Crime da Amérika\n(versão maligna da Liga da Justiça). Nos Novos 52 a origem do Homem-Coruja foi alterada. Thomas\nWayne Júnior era o irmão mais novo de Bruce Wayne que ainda em gestação sofreu um acidente. O que o"
+      },
+      {
+        "rank": 4,
+        "doc_id": "doc_1",
+        "source": "pdffiles\\wiki_batman.pdf",
+        "page": 26,
+        "content": "Em 1966, foi produzido o telefilme Batman, O Homem Morcego, como forma de promover a série de TV\nque iria estrear. Tanto o filme, quanto a série, foram estreladas por Adam West, no papel de Bruce Wayne\n/ Batman.\nEsse, foi o único filme do Morcego entre as décadas de 1950 e 1980. E, apesar dele ser um longa-\nmetragem, a única exibição desse filme nos cinemas, aconteceu em 30 de junho de 1966, justamente na\nsua estreia, quando ele foi exibido para um público selecionado, no tradicional Paramounth Theatrer, em\nAustin, no Texas. As demais exibições, se deram apenas na TV.\nAdam West se tornou, na época, o único ator a interpretar Batman em série de TV e longa-metragem, em\nlive-action.\nEra Burton (1989 - 1992)\nA partir de 1989, diversos filmes do personagem foram feitos: Tim Burton dirigiu os aclamados Batman\n(1989) e Batman Returns (1992), que teve Michael Keaton no papel do herói nos dois filmes.\nO sucesso dos filmes de Burton, fizeram com que a produção desse início a mais um filme."
+      },
+      {
+        "rank": 5,
+        "doc_id": "doc_5",
+        "source": "pdffiles\\wiki_batmovel.pdf",
+        "page": 1,
+        "content": "Len Perham, em 1963, para uso particular Robinson.\nAo tomar conhecimento do sucesso que este carro\nfazia, a empresa Green Acres Ice Cream, ligada à DC Comics, alugou o veículo para divulgar a revista,\nutilizando-o para este fim, até 1966. Após a devolução, Robinson vendeu o veículo pelo valor de US$\n200.000,00[3]."
+      }
+    ],
+    "mode": "rag",
+    "gen_k": 3,
+    "retriever": "denso",
+    "retrieval_seconds": 0.044,
+    "generation_seconds": 1.392,
+    "metrics": {
+      "P@1": 1.0,
+      "R@1": 1.0,
+      "Hit@1": 1.0,
+      "P@3": 0.6666666666666666,
+      "R@3": 1.0,
+      "Hit@3": 1.0,
+      "P@5": 0.6,
+      "R@5": 1.0,
+      "Hit@5": 1.0,
+      "MRR": 1.0,
+      "ContextPrecision@3": 0.9999999999,
+      "ContextRecall": 1.0,
+      "Faithfulness": 1.0,
+      "AnswerRelevance": 0.9470888775841789,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.19696330878717075,
+      "ROUGE-L": 0.4186046511627908,
+      "TokenF1": 0.45161290322580644,
+      "TokenPrecision": 0.3181818181818182,
+      "TokenRecall": 0.7777777777777778
+    },
+    "details": {
+      "relevance": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "hit_ids": [
+        [
+          "doc_5"
+        ],
+        [
+          "doc_5"
+        ],
+        [],
+        [],
+        [
+          "doc_5"
+        ]
+      ],
+      "judge_feedback": "Total rating: 10.0",
+      "correctness_reason": "The model response correctly identifies that the 1966 Batmobile was built from a Lincoln Futura, which matches the key information in the expected answer and the provided context."
+    }
+  }
+]

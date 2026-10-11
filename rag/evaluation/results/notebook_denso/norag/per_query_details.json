@@ -1,0 +1,453 @@
+[
+  {
+    "query_id": 1,
+    "user_query": "Quem assassinou os pais de Bruce Wayne?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Os pais de Bruce Wayne foram assassinados por Joe Chill.",
+    "generated_answer": "Os pais de Bruce Wayne, Thomas e Martha Wayne, foram assassinados por Joe Chill, um ladrão que tentou roubá-los em uma noite de julho. O incidente ocorreu em Gotham City e teve um grande impacto na vida de Bruce, levando-o a se tornar o Cavaleiro das Trevas, o Batman. Essa é uma parte fundamental da história do Batman e é retratada em muitos quadrinhos, filmes e séries sobre o personagem.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 2.662,
+    "metrics": {
+      "AnswerRelevance": 0.9240135201537373,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.25983833013159896,
+      "ROUGE-L": 0.24096385542168672,
+      "TokenF1": 0.2571428571428572,
+      "TokenPrecision": 0.14754098360655737,
+      "TokenRecall": 1.0
+    },
+    "details": {
+      "judge_feedback": "Total rating: 10.0",
+      "correctness_reason": "The model response correctly identifies Joe Chill as the murderer of Bruce Wayne's parents, which matches the key information in the expected answer and is factually accurate according to Batman lore."
+    }
+  },
+  {
+    "query_id": 2,
+    "user_query": "Quem fundou o Asilo Arkham e em honra de quem?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O Asilo Arkham foi fundado pelo psiquiatra Amadeus Arkham em honra da sua falecida mãe, Elizabeth Arkham.",
+    "generated_answer": "O Asilo Arkham é uma instituição fictícia que aparece em histórias de quadrinhos, principalmente nas publicações da DC Comics. No universo das histórias de quadrinhos, o Asilo Arkham foi fundado por Joseph Erdman em homenagem ao seu filho, Edward Erdman, que foi diagnosticado com uma doença mental e posteriormente morreu em um acidente. Erdman fundou o asilo com o objetivo de cuidar de outros pacientes com doenças mentais, mas o asilo acabou se tornando um local de experimentos e tortura por outros personagens, tornando-se um local notório por sua reputação de ser um local de tratamento inadequado e até mesmo cruel para os pacientes.\n\nNo entanto, é importante notar que essas informações são parte da narrativa fictícia e não se referem a eventos reais ou pessoas reais.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 4.154,
+    "metrics": {
+      "AnswerRelevance": 0.6481069254058246,
+      "JudgeRating": 1.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.08475426399505569,
+      "ROUGE-L": 0.10191082802547771,
+      "TokenF1": 0.12213740458015267,
+      "TokenPrecision": 0.06956521739130435,
+      "TokenRecall": 0.5
+    },
+    "details": {
+      "judge_feedback": "The answer provided is factually incorrect based on the established DC Comics lore. In the majority of comic book continuities, Arkham Asylum was founded by **Amadeus Arkham**, and it was named after his family estate (Arkham) and founded in memory of his deceased wife, though the institution itself bears the family name. The mention of \"Joseph Erdman\" and \"Edward Erdman\" is not the standard or recognized origin of the asylum in DC Comics.\n\nFeedback:::\nTotal rating: 1.0",
+      "correctness_reason": "The model response provides completely incorrect information. It claims the asylum was founded by Joseph Erdman in honor of his son Edward, whereas the expected answer (and established DC Comics lore) states it was founded by Amadeus Arkham in honor of his mother, Elizabeth Arkham."
+    }
+  },
+  {
+    "query_id": 3,
+    "user_query": "Qual é o nome verdadeiro da Arlequina?",
+    "ground_truth_doc_ids": [
+      "doc_17",
+      "doc_1"
+    ],
+    "ground_truth_answer": "Harleen Quinzel.",
+    "generated_answer": "O nome verdadeiro da Arlequina, personagem da DC Comics, é Harley Quinn. Ela foi criada por Paul Dini e Bruce Timm e estreou no curta-metragem \"Harley Quinn: A Origin Story\", exibido em 1992.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.426,
+    "metrics": {
+      "AnswerRelevance": 0.8854672115667324,
+      "JudgeRating": 3.0,
+      "JudgeScore": 2.0,
+      "Correctness": 0.0,
+      "BLEU": 0.0,
+      "ROUGE-L": 0.0,
+      "TokenF1": 0.0,
+      "TokenPrecision": 0.0,
+      "TokenRecall": 0.0
+    },
+    "details": {
+      "judge_feedback": "The answer provided is technically incorrect regarding the character's lore. In the DC Comics universe, \"Harley Quinn\" is her alias/stage name; her real name is **Harleen Quinzel**. The system answer identifies her real name as the same as her character name.\n\nFeedback:::\nTotal rating: 3.0",
+      "correctness_reason": "The model response identifies the character's name as 'Harley Quinn', which is her alias/superhero name, whereas the expected answer is 'Harleen Quinzel', which is her actual birth name (true name). Therefore, the model failed to provide the correct factual answer to the question 'Qual é o nome verdadeiro' (What is the real name)."
+    }
+  },
+  {
+    "query_id": 4,
+    "user_query": "Em que revista e em que ano se estreou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman estreou-se na revista Detective Comics #27, em 1939.",
+    "generated_answer": "O Batman estreou na revista \"Detective Comics\" (DC Comics) em 1939, no número 27. Especificamente, a primeira aparição do Batman foi na capa dessa revista, que foi publicada em maio de 1939.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.427,
+    "metrics": {
+      "AnswerRelevance": 0.9889719278249268,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.08562365224473284,
+      "ROUGE-L": 0.4444444444444445,
+      "TokenF1": 0.45000000000000007,
+      "TokenPrecision": 0.3,
+      "TokenRecall": 0.9
+    },
+    "details": {
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response correctly identifies the magazine (Detective Comics), the issue number (#27), and the year (1939), which matches all the key information in the expected answer."
+    }
+  },
+  {
+    "query_id": 5,
+    "user_query": "Quem criou o Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "O Batman foi criado pelo escritor Bill Finger e pelo desenhista Bob Kane.",
+    "generated_answer": "O Batman foi criado por Bob Kane e Bill Finger. Bob Kane é frequentemente creditado como o principal criador do personagem, mas Bill Finger desempenhou um papel significativo no desenvolvimento inicial do personagem, contribuindo para a história e o design do Batman. O primeiro aparição do Batman nos quadrinhos foi em \"Detective Comics #27\" em 1939.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.912,
+    "metrics": {
+      "AnswerRelevance": 0.9290590159038702,
+      "JudgeRating": 10.0,
+      "JudgeScore": 10.0,
+      "Correctness": 1.0,
+      "BLEU": 0.24503899381240507,
+      "ROUGE-L": 0.22857142857142856,
+      "TokenF1": 0.25806451612903225,
+      "TokenPrecision": 0.16,
+      "TokenRecall": 0.6666666666666666
+    },
+    "details": {
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response correctly identifies both Bob Kane and Bill Finger as the creators of Batman, which matches the key information in the expected answer. It also provides additional accurate context."
+    }
+  },
+  {
+    "query_id": 6,
+    "user_query": "Qual é o nome completo do Batman?",
+    "ground_truth_doc_ids": [
+      "doc_1"
+    ],
+    "ground_truth_answer": "Bruce Thomas Wayne.",
+    "generated_answer": "O nome completo do Batman é Bruce Wayne.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.27,
+    "metrics": {
+      "AnswerRelevance": 0.9999999999999183,
+      "JudgeRating": 10.0,
+      "JudgeScore": 8.0,
+      "Correctness": 1.0,
+      "BLEU": 0.10552670315936317,
+      "ROUGE-L": 0.4,
+      "TokenF1": 0.4,
+      "TokenPrecision": 0.2857142857142857,
+      "TokenRecall": 0.6666666666666666
+    },
+    "details": {
+      "judge_feedback": "10.0",
+      "correctness_reason": "The model response provides the correct name 'Bruce Wayne'. While it omits the middle name 'Thomas' found in the expected answer, 'Bruce Wayne' is the universally recognized full name of the character and is factually accurate. In most evaluation contexts, providing the primary first and last name is considered a correct answer to this question."
+    }
+  },
+  {
+    "query_id": 7,
+    "user_query": "O que é o Poço de Lázaro?",
+    "ground_truth_doc_ids": [
+      "doc_16"
+    ],
+    "ground_truth_answer": "O Poço de Lázaro é uma mistura química de poções e venenos tóxicos e místicos que consegue curar corpos doentes ou feridos e ressuscitar os mortos; é por isso que Ra's al Ghul tem idade sobre-humana.",
+    "generated_answer": "O Poço de Lázaro é uma referência bíblica encontrada no Evangelho de João, capítulo 11, versículos 1-44. É uma história sobre um homem chamado Lázaro, que era amigo de Jesus. Segundo a narrativa, Lázaro morreu e foi enterrado, mas Jesus, após ser informado da morte de Lázaro, viaja para a cidade de Betânia para ressuscitá-lo.\n\nA história é importante por várias razões:\n\n1. Mostra a fé dos irmãos de Lázaro, Marta e Maria, em Jesus.\n\n2. Demonstra a poderosa obra de ressurreição de Jesus.\n\n3. Foi um evento que contribuiu para a decisão dos líderes judeus de condenar Jesus à morte.\n\n4. É frequentemente citada como um exemplo de ressurreição, embora seja importante notar que Lázaro foi ressuscitado temporariamente, não sendo a ressurreição final mencionada na Bíblia.\n\n5. O poço mencionado no título da história é um local onde Lázaro e seus irmãos costumavam enterrar os mortos, sugerindo que era um local de importância na comunidade local.\n\nÉ uma história que combina elementos de fé, amizade e milagre, sendo frequentemente estudada e discutida em contextos religiosos e acadêmicos.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 6.754,
+    "metrics": {
+      "AnswerRelevance": 0.5641153757740378,
+      "JudgeRating": 1.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.10349556744734889,
+      "ROUGE-L": 0.12048192771084339,
+      "TokenF1": 0.14213197969543145,
+      "TokenPrecision": 0.08641975308641975,
+      "TokenRecall": 0.4
+    },
+    "details": {
+      "judge_feedback": "The system answer is fundamentally incorrect. There is no such thing as a \"Poço de Lázaro\" (Lazarus' Well) in the Bible. The story of Lazarus involves a **tomb** (cave), not a well. The AI hallucinated the existence of a \"well\" and even attempted to justify it in point 5 by claiming it was a place where people buried the dead (which is logically contradictory, as wells are for water and tombs are for burial).\n\nFeedback:::\nTotal rating: 1.0",
+      "correctness_reason": "The model response completely misinterpreted the question. The expected answer refers to the 'Lazarus Pit' from DC Comics (associated with Ra's al Ghul), whereas the model provided a biblical interpretation of the story of Lazarus. Furthermore, the model hallucinated a 'well' (poço) in the biblical narrative to try and fit the question, which is not part of the standard biblical account of Lazarus."
+    }
+  },
+  {
+    "query_id": 8,
+    "user_query": "De onde vem o nome Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bill Finger viu o nome \"Gotham Jewelers\" ao folhear a lista telefónica e escolheu Gotham City, depois de ter pensado em Civic City, Capital City e Coast City.",
+    "generated_answer": "O nome \"Gotham City\" é uma referência literária que surgiu no final do século XVIII e se tornou famoso por ser o nome da cidade fictícia onde a personagem Batman opera. Vamos explorar um pouco mais sobre a origem desse nome:\n\n1. Origem Literária: A história mais conhecida de origem para Gotham City é atribuída ao escritor Joseph C. Hart, que a usou em uma carta publicada em 1849 no New York Evening Post.\n\n2. A Lenda: Hart contou uma história sobre um pequeno vilarejo chamado Gotham que, quando ameaçado por um lobo, decidiu se mudar para um lugar mais seguro. Quando os habitantes foram questionados sobre por que não se mudaram, eles responderam que estavam esperando que o lobo morresse naturalmente. Esta história foi interpretada como uma metáfora para a cidade ser um lugar onde as pessoas vivem em um estado de ignorância ou inação.\n\n3. Batman: O nome foi adotado pela DC Comics para a cidade fictícia onde Batman opera, provavelmente inspirado na história literária, mas com uma conotação mais sombria e criminal.\n\n4. Outras Referências: Gotham City também apareceu em outras obras literárias e culturais antes de ser associado ao Batman, como na obra de Charles Dickens \"A Casa dos Espíritos Perdidos\".\n\n5. Adaptação: Na série de TV \"Gotham\", a cidade é retratada como uma metrópole em desenvolvimento, com uma história mais complexa e menos idealizada do que a versão do Batman.\n\nO nome \"Gotham\" continua a ser usado em várias obras de ficção e cultura pop, frequentemente associado a cidades ou comunidades que parecem estar vivendo em um estado de ignorância ou inação.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 9.08,
+    "metrics": {
+      "AnswerRelevance": 0.6551976575226739,
+      "JudgeRating": 3.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.06353210997181417,
+      "ROUGE-L": 0.06790123456790123,
+      "TokenF1": 0.08461538461538462,
+      "TokenPrecision": 0.04700854700854701,
+      "TokenRecall": 0.4230769230769231
+    },
+    "details": {
+      "judge_feedback": "The system answer provides a detailed response, but it contains significant factual inaccuracies and hallucinations. \n\n1. **Factual Errors:** The claim that the name comes from a writer named Joseph C. Hart in 1849 is not the widely accepted origin. In reality, \"Gotham\" was a nickname for New York City in the 19th century (derived from a village in England called Gotham, known for its \"wise fools\").\n2. **Hallucinations:** The mention of Charles Dickens' \"A Casa dos Espíritos Perdidos\" (The House of Lost Spirits) is a hallucination; Dickens did not write a book by that name.\n3. **Confusion:** The answer mixes the fictional city of Batman with the real-world historical nickname for New York, but does so using fabricated sources.\n\nWhile the structure is good and it attempts to be thorough, the misinformation makes the answer unreliable.\n\nFeedback:::\nTotal rating: 3.0",
+      "correctness_reason": "The model response provides a completely different and incorrect origin for the name 'Gotham City' compared to the expected answer. The expected answer specifies that Bill Finger chose the name after seeing 'Gotham Jewelers' in a phone book, whereas the model response attributes it to an 18th-century literary reference and a story by Joseph C. Hart, which is factually incorrect in the context of the creation of the DC Comics city."
+    }
+  },
+  {
+    "query_id": 9,
+    "user_query": "Quais são os três moradores mais famosos de Gotham City?",
+    "ground_truth_doc_ids": [
+      "doc_2"
+    ],
+    "ground_truth_answer": "Bruce Wayne (Batman), Alan Scott (o Lanterna Verde original) e Renee Montoya (a nova Questão).",
+    "generated_answer": "Gotham City é um cenário fictício muito conhecido, principalmente por suas aparições em quadrinhos, desenhos animados e séries de TV da DC Comics. Embora existam muitos personagens famosos que podem ser considerados \"moradores\" de Gotham, três dos mais famosos e icônicos são:\n\n1. Bruce Wayne / Batman: O herói noturno mais famoso do universo DC, conhecido por sua luta contra o crime e sua personalidade misteriosa. Bruce Wayne é o herdeiro do vasto império Wayne Enterprises e vive em Gotham City.\n\n2. Harvey Dent / O Homem de Ferro: Um ex-promotor que se torna o vilão conhecido como O Homem de Ferro após ser mutilado durante um confronto com o Batman. Ele é um dos principais antagonistas de Batman em muitas histórias.\n\n3. Jim Gordon: Um policial honesto e leal que se torna um aliado próximo do Batman. Jim Gordon é conhecido por sua luta contra o crime em Gotham e por sua integridade profissional.\n\nEstes três personagens são frequentemente retratados em diferentes mídias e são amplamente reconhecidos como alguns dos mais famosos habitantes de Gotham City.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 5.904,
+    "metrics": {
+      "AnswerRelevance": 0.9588132987024066,
+      "JudgeRating": 4.0,
+      "JudgeScore": 2.0,
+      "Correctness": 0.0,
+      "BLEU": 0.017911710595643587,
+      "ROUGE-L": 0.058536585365853655,
+      "TokenF1": 0.045714285714285714,
+      "TokenPrecision": 0.024691358024691357,
+      "TokenRecall": 0.3076923076923077
+    },
+    "details": {
+      "judge_feedback": "The system answer contains a significant factual error. In point 2, it identifies Harvey Dent as \"O Homem de Ferro\" (Iron Man). Iron Man is a character from Marvel Comics and has no connection to Harvey Dent or Gotham City. Harvey Dent's villain persona is \"Duas-Caras\" (Two-Face). While the other two choices (Batman and Jim Gordon) are correct and the structure of the answer is good, this hallucination is a major error in a factual query.\n\nFeedback:::\nTotal rating: 4.0",
+      "correctness_reason": "The model response contains a major factual error: it identifies Harvey Dent as 'O Homem de Ferro' (Iron Man), who is a Marvel character, not a DC character. Additionally, it fails to list the specific characters mentioned in the expected answer (Alan Scott and Renee Montoya)."
+    }
+  },
+  {
+    "query_id": 10,
+    "user_query": "De onde foi retirado o nome do Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "O nome foi retirado do sanatório da cidade fictícia de Arkham, Massachusetts, descrita nos contos de H.P. Lovecraft.",
+    "generated_answer": "O nome \"Arkham\" para o asilo psiquiátrico aparece pela primeira vez na obra literária \"H.P. Lovecraft: The Call of Cthulhu\", publicada em 1928. No conto, Arkham é uma cidade fictícia na Pensilvânia, onde está localizado o asilo psiquiátrico onde o protagonista encontra um paciente que fala sobre o monstro Cthulhu.\n\nNo entanto, é importante notar que a localização exata de Arkham não é claramente definida no conto, e Lovecraft mencionou que era uma cidade fictícia, embora tenha sugerido que poderia estar em Massachusetts. O nome Arkham ganhou popularidade e foi usado em várias obras de ficção, incluindo jogos de terror e super-heróis, como os quadrinhos da DC Comics, onde Arkham se tornou um nome comum para asilos psiquiátricos.\n\nEm resumo, o nome \"Arkham\" foi criado por H.P. Lovecraft para seu universo literário e se tornou um elemento reconhecível em várias obras de ficção posterior.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 5.826,
+    "metrics": {
+      "AnswerRelevance": 0.8515739942846547,
+      "JudgeRating": 7.0,
+      "JudgeScore": 4.0,
+      "Correctness": 0.0,
+      "BLEU": 0.089221526116501,
+      "ROUGE-L": 0.13259668508287292,
+      "TokenF1": 0.16,
+      "TokenPrecision": 0.09090909090909091,
+      "TokenRecall": 0.6666666666666666
+    },
+    "details": {
+      "judge_feedback": "The system answer correctly identifies H.P. Lovecraft as the origin of the name \"Arkham,\" which is the core of the user's question. However, it contains a significant factual error regarding the geography: Arkham is famously located in **Massachusetts** (part of the Lovecraftian Miskatonic region), not Pennsylvania. While the answer mentions Massachusetts later, the initial claim about Pennsylvania is incorrect. Additionally, it slightly confuses the specific story \"The Call of Cthulhu\" as the sole origin, whereas Arkham is a recurring city across many of Lovecraft's works. Despite the geographical error, it successfully answers the primary question of *where* the name was taken from.\n\nFeedback:::\nTotal rating: 7.0",
+      "correctness_reason": "The model response contains a significant factual error: it states that Arkham is a fictional city in Pennsylvania, whereas the expected answer and literary fact is that it is located in Massachusetts. While it later mentions that Lovecraft suggested it could be in Massachusetts, the primary assertion is incorrect."
+    }
+  },
+  {
+    "query_id": 11,
+    "user_query": "Em que revista apareceu pela primeira vez o Asilo Arkham?",
+    "ground_truth_doc_ids": [
+      "doc_3"
+    ],
+    "ground_truth_answer": "Em Batman #258, de outubro de 1974, escrita por Dennis O'Neil com desenhos de Irv Novick.",
+    "generated_answer": "O Asilo Arkham apareceu pela primeira vez na revista \"Detective Comics\" (também conhecida como Batman), no quadrinho intitulado \"The Haunted House\" (O Casarão Assombrado), publicado em outubro de 1941. Especificamente, foi no número 66 da série, que foi lançado em 18 de outubro de 1941. Este quadrinho foi escrito por Bill Finger e desenhado por Bob Kane. O Asilo Arkham se tornou um local icônico na mitologia do Batman ao longo dos anos.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 3.068,
+    "metrics": {
+      "AnswerRelevance": 0.8428137807603745,
+      "JudgeRating": 10.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.02372094012055542,
+      "ROUGE-L": 0.125,
+      "TokenF1": 0.16666666666666669,
+      "TokenPrecision": 0.10294117647058823,
+      "TokenRecall": 0.4375
+    },
+    "details": {
+      "judge_feedback": "The system answer is accurate, detailed, and directly addresses the user's question by providing the name of the magazine, the specific issue number, the date, and the title of the story.\n\nFeedback:::\nTotal rating: 10.0",
+      "correctness_reason": "The model response provides incorrect information. It claims Arkham Asylum first appeared in Detective Comics #66 in 1941, whereas the expected answer (and historical fact) is Batman #258 in 1974. The model's date and issue number are completely wrong."
+    }
+  },
+  {
+    "query_id": 12,
+    "user_query": "Onde fica a Batcaverna?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "A Batcaverna fica numa gruta abaixo dos alicerces da Mansão Wayne.",
+    "generated_answer": "A Batcaverna é um local fictício no universo de quadrinhos da DC Comics, onde Batman guarda seus equipamentos e armas. Ela está localizada debaixo da cidade de Gotham. A localização exata varia em diferentes versões da história, mas geralmente é descrita como uma caverna subterrânea cheia de armadilhas e segredos.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.935,
+    "metrics": {
+      "AnswerRelevance": 0.9206688263881139,
+      "JudgeRating": 10.0,
+      "JudgeScore": 5.0,
+      "Correctness": 0.0,
+      "BLEU": 0.04019656738893367,
+      "ROUGE-L": 0.12307692307692308,
+      "TokenF1": 0.07142857142857142,
+      "TokenPrecision": 0.043478260869565216,
+      "TokenRecall": 0.2
+    },
+    "details": {
+      "judge_feedback": "Total rating: 10.0",
+      "correctness_reason": "The model response states that the Batcave is located 'under the city of Gotham', whereas the expected answer specifies it is 'below the foundations of Wayne Manor'. While it is technically under the city, the specific and defining location is the Wayne Manor estate. The model response misses the key piece of information regarding the Manor."
+    }
+  },
+  {
+    "query_id": 13,
+    "user_query": "Como é que Bruce Wayne descobriu as cavernas quando era criança?",
+    "ground_truth_doc_ids": [
+      "doc_4"
+    ],
+    "ground_truth_answer": "Bruce Wayne descobriu as cavernas quando caiu através de um poço dilapidado na sua propriedade.",
+    "generated_answer": "Bruce Wayne descobriu as cavernas perto de sua propriedade, o Wayne Manor, quando era criança. A história geralmente se passa em Gotham City, mas as cavernas estão localizadas nas proximidades. \n\nAqui está um resumo simplificado dos eventos:\n\n1. Bruce Wayne, ainda criança, estava brincando perto de sua propriedade.\n\n2. Ele encontrou uma entrada secreta nas rochas que levava às cavernas.\n\n3. Bruce explorou as cavernas, descobrindo armadilhas e tesouros.\n\n4. Essa experiência inicial nas cavernas foi crucial para moldar sua personalidade e seu interesse em questões de justiça.\n\n5. Mais tarde, Bruce voltou às cavernas como Batman para treinar e armazenar equipamentos.\n\nA descoberta das cavernas é frequentemente retratada como um momento de grande importância na vida de Bruce Wayne, pois foi lá que ele primeiro experimentou a sensação de aventura e descoberta, que posteriormente se transformou em sua missão de lutar contra a injustiça.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 5.148,
+    "metrics": {
+      "AnswerRelevance": 0.8791278467189508,
+      "JudgeRating": 4.0,
+      "JudgeScore": 2.0,
+      "Correctness": 0.0,
+      "BLEU": 0.2622067643618597,
+      "ROUGE-L": 0.12790697674418605,
+      "TokenF1": 0.12244897959183673,
+      "TokenPrecision": 0.06716417910447761,
+      "TokenRecall": 0.6923076923076923
+    },
+    "details": {
+      "judge_feedback": "The system answer provides a general narrative, but it is factually inaccurate regarding the core lore of Batman. In most canonical versions (including the comics and movies), Bruce Wayne does not discover the caves as a child while \"playing\" or finding \"treasures and traps.\" Usually, he discovers the cave as an adult returning to Gotham, or the cave is a pre-existing family secret/geographic feature of the estate. The description of \"finding traps and treasures\" sounds more like a generic adventure story than the actual Batman origin.\n\nFeedback:::\nTotal rating: 4.0",
+      "correctness_reason": "The model response fails to mention the key detail from the expected answer: that Bruce Wayne discovered the caves by falling through a dilapidated well. Instead, it provides a generic description of finding a 'secret entrance in the rocks', which is not the specific event described in the expected answer."
+    }
+  },
+  {
+    "query_id": 14,
+    "user_query": "Por quanto foi vendido o Batmóvel da série de televisão dos anos sessenta?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi vendido por 3,47 milhões de euros num leilão em Scottsdale, no Arizona, a 19 de janeiro de 2013.",
+    "generated_answer": "O Batmóvel da série de televisão dos anos 1960 foi vendido por um valor significativo, mas a quantia exata pode variar dependendo da fonte. De acordo com registros disponíveis, o veículo foi leiloado em 2017 por US$ 4,75 milhões. Este valor reflete o preço final pago pelo comprador no leilão realizado pela RM Sotheby's em Long Beach, Califórnia. É importante notar que este é o valor final de leilão e pode não refletir o preço inicial de venda ou qualquer ajuste posterior.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 2.82,
+    "metrics": {
+      "AnswerRelevance": 0.9616964296784386,
+      "JudgeRating": 10.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.0378786561257948,
+      "ROUGE-L": 0.17241379310344826,
+      "TokenF1": 0.20833333333333334,
+      "TokenPrecision": 0.12987012987012986,
+      "TokenRecall": 0.5263157894736842
+    },
+    "details": {
+      "judge_feedback": "Total rating: 10.0",
+      "correctness_reason": "The model response provides a different price (US$ 4.75 million in 2017) compared to the expected answer (3.47 million euros in 2013). The model's information contradicts the specific factual data provided in the expected answer."
+    }
+  },
+  {
+    "query_id": 15,
+    "user_query": "A partir de que carro foi construído o Batmóvel da série de televisão de 1966?",
+    "ground_truth_doc_ids": [
+      "doc_5"
+    ],
+    "ground_truth_answer": "Foi construído por George Barris a partir de um Lincoln Futura.",
+    "generated_answer": "O Batmóvel da série de televisão de 1966 foi construído a partir de um Ford Thunderbird 1965. Este carro foi escolhido devido à sua aparência esportiva e ao espaço interno que permitia a instalação de equipamentos necessários para a personagem Batman. A construção do Batmóvel envolveu a equipe de design e engenharia da Lowry Digital, que transformou o carro em um veículo de fantasia impressionante, mantendo a estrutura básica do Ford Thunderbird mas adicionando elementos como as asas laterais e o tanque de combustível que se transformava em uma plataforma de lançamento para o Robin.",
+    "retrieved": [],
+    "mode": "norag",
+    "gen_k": 0,
+    "retriever": null,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 3.608,
+    "metrics": {
+      "AnswerRelevance": 0.9540222367680128,
+      "JudgeRating": 7.0,
+      "JudgeScore": 0.0,
+      "Correctness": 0.0,
+      "BLEU": 0.1513851459876605,
+      "ROUGE-L": 0.11666666666666667,
+      "TokenF1": 0.08888888888888889,
+      "TokenPrecision": 0.04938271604938271,
+      "TokenRecall": 0.4444444444444444
+    },
+    "details": {
+      "judge_feedback": "The answer correctly identifies the base car (1966 Ford Thunderbird, though it mentions 1965, which is the model year of the car used). However, it contains a significant factual error regarding \"Lowry Digital\" (a digital restoration company) instead of George Barris (the legendary customizer who actually built the car). Despite the hallucination regarding the builder, the core question \"from which car was it built\" was answered correctly.\n\nFeedback:::\nTotal rating: 7.0",
+      "correctness_reason": "The model response is factually incorrect. The 1966 Batmobile was built from a Lincoln Futura concept car, not a 1965 Ford Thunderbird. The model provides a detailed but false explanation."
+    }
+  }
+]
